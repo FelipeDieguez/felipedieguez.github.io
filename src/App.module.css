@@ -1,0 +1,420 @@
+.title1 {
+  font-size: var(--fs_title);
+  font-weight: var(--font_weight_bold);
+  color: var(--color_1);
+}
+
+.title2 {
+  font-size: var(--fs_1);
+  font-weight: var(--font_weight_bold);
+  color: var(--color_1);
+}
+
+.title3 {
+  font-size: var(--fs_2);
+  font-weight: var(--font_weight_bold);
+  color: var(--color_1);
+}
+
+p {
+  font-size: var(--fs_3);
+  font-weight: var(--font_weight);
+  color: var(--color_3);
+}
+
+a {
+  font-size: var(--fs_3);
+  font-weight: var(--font_weight);
+  color: var(--color_3);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto; /* Ocupa o espaço que sobra */
+  overflow: hidden;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background_2);
+  border: 1px solid var(--border_color);
+  border-radius: 25px;
+  padding: 30px;
+  height: 600px;
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  height: 1px;
+  background: var(--border_color);
+}
+
+  /* SIDEBAR HEADER */
+
+.sidebarHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color_1);
+}
+
+.avatarBox img {
+  width: 120px;
+  border-radius: 100px;
+}
+
+.sidebarHeaderInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarHeaderInfo h1 {
+  font-size: var(--fs_1);
+}
+
+.sidebarHeaderInfo p {
+  background-color: var(--background_3);
+  font-size: var(--fs_3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sidebarHeaderButton {
+  display: none;
+}
+
+  /* SIDEBAR SECTION */
+
+.sidebarSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactIconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border_color);
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  color: var(--color_2);
+  background: var(--shadow);
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--color_1);
+  padding: 0px 0px 0px 10px;
+}
+
+.contactInfo p {
+  font-size: 12px;
+  color: var(--color_3);
+}
+
+.contactInfo a {
+  font-size: 12px;
+}
+
+  /* SIDEBAR FOOTER */
+
+.sidebarFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+.socialItem {
+  list-style-type: none;
+  color: var(--color_1);
+  padding: 0px 10px;
+}
+
+.socialItem a {
+  color: var(--color_1);
+  font-size: 18px;
+}
+
+/* CONTENT */
+
+.content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background_2);
+  border: 1px solid var(--border_color);
+  border-radius: 25px;
+  margin: 0px 0px 20px 20px;
+  padding: 30px;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge */
+}
+
+.content::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Opera */
+}
+
+  /* CONTENT NAVBAR */
+
+.contentNavbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--background_3);
+  border-radius: 0px 25px 0px 25px;
+  padding: 0px 20px;
+}
+
+.navbarItem {
+  list-style-type: none;
+  padding: 20px 20px;
+}
+
+.navbarButton {
+  background: var(--background_3);
+  border: none;
+  color: var(--color_3);
+  font-size: var(--font_weight);
+  font-weight: bold;
+  font-family: var(--font_family);
+  cursor: pointer;
+}
+
+.navbarButtonSelected {
+  background: var(--background_3);
+  border: none;
+  color: var(--color_2);
+  font-size: var(--font_weight);
+  font-weight: bold;
+  font-family: var(--font_family);
+  cursor: pointer;
+}
+
+  /* CONTENT ABOUT */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+}
+
+.responsabilities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0px;
+}
+
+.responsabilityItem {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: var(--background_3);
+  padding: 10px;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  z-index: 1;
+  gap: 20px;
+}
+
+.responsabilityItem img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0px;
+}
+
+.toolItem {
+  list-style: none;
+}
+
+.toolItem img {
+  width: 50px;
+  height: 50px
+}
+
+  /* CONTENT BIOGRAPHY */
+.biography {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+}
+
+.biographyTitle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.biographyList {
+  list-style: none;
+}
+
+.biographyList span {
+  font-size: var(--fs_3);
+  font-weight: var(--font_weight_bold);
+  color: var(--color_2);
+}
+
+.biographyItem {
+  position: relative;
+  padding-left: 20px; /* espaço para a bolinha */
+}
+
+.biographyItem::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -23px;
+  height: 6px;
+  width: 6px;
+  background: var(--color_2);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--color_3);
+}
+
+  /* CONTENT PORTFOLIO */
+
+@media (max-width: 800px) {
+  .page {
+    margin: 0px 5%; /* Reduzindo um pouco a margem para telas pequenas */
+    height: auto; /* Altura automática */
+    overflow: visible; /* Permitindo scroll geral */
+  }
+
+  .section {
+    flex-direction: column; /* Coluna em telas pequenas */
+    overflow: visible; /* Permitindo scroll geral */
+    gap: 20px; /* Espaço entre sidebar e content */
+  }
+
+  .sidebar {
+    width: 100%; /* Largura total */
+    margin-bottom: 0; /* Removendo margem inferior */
+    height: auto; /* Altura automática */
+    box-sizing: border-box; /* Incluindo padding na largura */
+    margin-right: 0; /* Removendo margem direita */
+  }
+
+  .content {
+    width: 100%; /* Largura total */
+    margin: 0; /* Removendo todas as margens */
+    box-sizing: border-box; /* Incluindo padding na largura */
+    overflow-y: visible; /* Scroll será na página toda */
+    height: auto; /* Altura automática */
+    min-height: 300px; /* Altura mínima */
+    flex: none; /* Removendo flex-grow */
+  }
+
+  /* Ajustes para o contentNavbar */
+  .contentNavbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    justify-content: space-around;
+    z-index: 999;
+    padding: 10px 0px;
+  }
+
+  .navbarItem {
+    padding: 0px;
+  }
+
+  .navbarButton,
+  .navbarButtonSelected {
+    font-size: 14px;
+  }
+
+  /* Ajustes para os itens de responsabilidade */
+  .responsabilities {
+    flex-direction: column; /* Coluna em telas pequenas */
+    gap: 15px;
+  }
+
+  .responsabilityItem {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Ajustes para a lista de ferramentas */
+  .tools {
+    flex-wrap: wrap; /* Quebra de linha */
+    justify-content: center; /* Centralizando */
+  }
+
+  /* Ajustes para o avatar */
+  .avatarBox img {
+    width: 100px; /* Reduzindo um pouco */
+  }
+
+  /* Mostrando o botão do sidebar em mobile */
+  .sidebarHeaderButton {
+    display: block;
+    margin-top: 15px;
+  }
+}
