@@ -1,0 +1,452 @@
+{
+  "projects": [
+    {
+      "name": "Aeroporto de Bagé",
+      "locate": "-31.387570739277358, -54.11268174363579",
+      "city": "Bagé",
+      "state": "RS",
+      "hours": 8,
+      "area": 40.48,
+      "categories": ["Alvenaria Estrutural", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Goiânia",
+      "locate": "-16.62954336128999, -49.21402995197188",
+      "city": "Goiânia",
+      "state": "GO",
+      "hours": 52,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Imperatriz",
+      "locate": "-5.531518316961253, -47.455419544705954",
+      "city": "Imperatriz",
+      "state": "MA",
+      "hours": 212.83,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Joinville",
+      "locate": "-26.225232561419883, -48.801735623454746",
+      "city": "Joinville",
+      "state": "SC",
+      "hours": 219.5,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Londrina",
+      "locate": "-23.328334736829106, -51.13715707326139",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 586.5,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Palmas",
+      "locate": "-10.295479836305995, -48.35762014235678",
+      "city": "Palmas",
+      "state": "TO",
+      "hours": 101.5,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Pelotas",
+      "locate": "-31.715640140835585, -52.33071552588862",
+      "city": "Pelotas",
+      "state": "RS",
+      "hours": 119.83,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Petrolina",
+      "locate": "-9.366447718028487, -40.56512221168284",
+      "city": "Petrolina",
+      "state": "PE",
+      "hours": 77.83,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de São Luís",
+      "locate": "-2.586523911636214, -44.236203231089185",
+      "city": "São Luís",
+      "state": "MA",
+      "hours": 103.33,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Aeroporto de Uruguaiana",
+      "locate": "-29.783874124050595, -57.03594736644616",
+      "city": "Uruguaiana",
+      "state": "RS",
+      "hours": 120,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "APC Linsul",
+      "locate": "-27.22726083511816, -52.671252619184926",
+      "city": "Chapecó",
+      "state": "SC",
+      "hours": 16.5,
+      "area": 111.58,
+      "categories": ["Concreto Armado"]
+    },
+    {
+      "name": "Base Silesa",
+      "locate": "-23.455579790355998, -51.42902340972505",
+      "city": "Arapongas",
+      "state": "PR",
+      "hours": 67.5,
+      "area": 188.94,
+      "categories": ["Concreto Armado"]
+    },
+    {
+      "name": "Bella Coimbra",
+      "locate": "-23.262281185086998, -51.203960683145205",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 1,
+      "area": 13183.16,
+      "categories": ["Alvenaria Estrutural"]
+    },
+    {
+      "name": "Clínica de Fisioterapia",
+      "locate": "-25.445274926487308, -49.26752460423677",
+      "city": "Curitiba",
+      "state": "PR",
+      "hours": 45,
+      "area": 296.14,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "FIOCRUZ",
+      "locate": "-22.87859024992557, -43.24524501792847",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "hours": 80,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Mezanino Laboratório Granado",
+      "locate": "-22.695741464558004, -43.627394707451984",
+      "city": "Japeri",
+      "state": "RJ",
+      "hours": 116.5,
+      "area": 219.95,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Hospital de Pelotas",
+      "locate": "-31.756801602060815, -52.3512695734275",
+      "city": "Pelotas",
+      "state": "RS",
+      "hours": 17.5,
+      "area": 0,
+      "categories": ["Concreto Armado"]
+    },
+    {
+      "name": "HU UFJF",
+      "locate": "-21.7844532466422, -43.368058353030804",
+      "city": "Juiz de Fora",
+      "state": "MG",
+      "hours": 345,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "IBC",
+      "locate": "-23.32298089922067, -51.13029310706657",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 33,
+      "area": 11560.93,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Leito de Secagem",
+      "locate": "-26.09740963654876, -49.427695733791595",
+      "city": "Piên",
+      "state": "PR",
+      "hours": 45,
+      "area": 378,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Mirante Parque das Águas",
+      "locate": "-25.441859193712194, -49.14660535354054",
+      "city": "Pinhais",
+      "state": "PR",
+      "hours": 18,
+      "area": 0,
+      "categories": ["Concreto Armado"]
+    },
+    {
+      "name": "Artheo",
+      "locate": "-20.455780112204646, -54.595548766533824",
+      "city": "Campo Grande",
+      "state": "MS",
+      "hours": 13.5,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Paseo",
+      "locate": "-20.465232207718046, -54.571935504250874",
+      "city": "Campo Grande",
+      "state": "MS",
+      "hours": 14.5,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Alameda Jardim",
+      "locate": "-20.457806015824534, -54.59972790281995",
+      "city": "Campo Grande",
+      "state": "MS",
+      "hours": 13.5,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Piraquara HDSPR",
+      "locate": "-25.448848762360964, -49.091745367686336",
+      "city": "Piraquara",
+      "state": "PR",
+      "hours": 67.5,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Hause",
+      "locate": "-23.330606795598264, -51.18251977511147",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 9,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Huma",
+      "locate": "-23.327053990123137, -51.1823185722471",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 33,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Poema",
+      "locate": "-23.32743256557842, -51.18079392226813",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 44.5,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Essence",
+      "locate": "-23.428729637217277, -51.923492280660064",
+      "city": "Maringá",
+      "state": "PR",
+      "hours": 2,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Pininfarina",
+      "locate": "-23.423068752765523, -51.92739229045254",
+      "city": "Maringá",
+      "state": "PR",
+      "hours": 44,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Evidence",
+      "locate": "-23.430019661635555, -51.923983990476415",
+      "city": "Maringá",
+      "state": "PR",
+      "hours": 10.5,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Altier",
+      "locate": "-23.603600747787674, -46.66528757510475",
+      "city": "São Paulo",
+      "state": "SP",
+      "hours": 34,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Etmo",
+      "locate": "-23.559595298906583, -46.668724644419775",
+      "city": "São Paulo",
+      "state": "SP",
+      "hours": 14,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Ponte Ferroviária Rio Tamanduateí",
+      "locate": "-23.587802289666694, -46.59357338288676",
+      "city": "São Paulo",
+      "state": "SP",
+      "hours": 325,
+      "area": 0,
+      "categories": ["Concreto Armado", "Concreto Protendido"]
+    },
+    {
+      "name": "Ponte Rodoviária",
+      "locate": "-22.760840675024856, -43.41505118710126",
+      "city": "Nova Iguaçu",
+      "state": "RJ",
+      "hours": 66,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Reforço Embrapa",
+      "locate": "-23.19320776093242, -51.181066497787185",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 20.5,
+      "area": 174.48,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Sanepar Rolândia",
+      "locate": "-23.312876455565068, -51.3638742669321",
+      "city": "Rolândia",
+      "state": "PR",
+      "hours": 74.5,
+      "area": 39.1,
+      "categories": ["Concreto Armado"]
+    },
+    {
+      "name": "Parque das Artes",
+      "locate": "-23.368579088309158, -51.22777608069485",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 83.5,
+      "area": 0,
+      "categories": ["Concreto Armado", "Estrutura Metálica"]
+    },
+    {
+      "name": "Next",
+      "locate": "-15.60209981490653, -56.1161789464393",
+      "city": "Cuiabá",
+      "state": "MT",
+      "hours": 10,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Ouse",
+      "locate": "-20.434826637082352, -54.57907652310775",
+      "city": "Campo Grande",
+      "state": "MS",
+      "hours": 201,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Tay",
+      "locate": "-20.466516897591806, -54.57729991750792",
+      "city": "Campo Grande",
+      "state": "MS",
+      "hours": 73,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Terrah",
+      "locate": "-20.444955625585912, -54.56480177633795",
+      "city": "Campo Grande",
+      "state": "MS",
+      "hours": 12.5,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Summer",
+      "locate": "-23.35036507961597, -51.18068960689156",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 69,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Blu ink",
+      "locate": "-23.332975462617895, -51.18147173026331",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 70,
+      "area": 0,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Odyssey",
+      "locate": "-23.30744425885552, -51.17323763350182",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 15,
+      "area": 9.84,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Wonder",
+      "locate": "-23.339982460124283, -51.155928520546865",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 16,
+      "area": 25,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Wynn",
+      "locate": "-23.341048859439663, -51.15485818311887",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 50,
+      "area": 42.85,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Oro",
+      "locate": "-23.34111555813686, -51.15427485174948",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 50.50,
+      "area": 55.97,
+      "categories": ["Estrutura Metálica"]
+    },
+    {
+      "name": "Zahra",
+      "locate": "-23.340525248372188, -51.15618886977525",
+      "city": "Londrina",
+      "state": "PR",
+      "hours": 19.5,
+      "area": 81.85,
+      "categories": ["Estrutura Metálica"]
+    }
+  ],
+  "ignored": [
+    "CCS Imperatriz",
+    "Desenvolvimento de Produto",
+    "Engenhars - QuantitArs",
+    "Externo - Renovar",
+    "PG102 Aztris"
+  ]
+}

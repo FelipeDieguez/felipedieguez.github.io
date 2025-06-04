@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import styles from "./App.module.css"
 import { useTranslation } from 'react-i18next'
 
 import LanguageButton from './components/LanguageButton'
 import ColorModeButton from './components/ColorModeButton'
+import ProjectsMap from './components/ProjectsMap'
 
 import myAvatar from './assets/images/my-avatar.png'
 import iconDesign from './assets/images/icon-design.svg'
@@ -23,14 +22,28 @@ import devTool4 from './assets/images/ferramenta-4-desenvolvedor.png'
 import devTool5 from './assets/images/ferramenta-5-desenvolvedor.png'
 import devTool6 from './assets/images/ferramenta-6-desenvolvedor.png'
 import devTool7 from './assets/images/ferramenta-7-desenvolvedor.png'
-import project1 from './assets/images/project-1.png'
-import project2 from './assets/images/project-2.png'
-import project3 from './assets/images/project-3.png'
-
+import projectsData from './assets/map/portfolio.json'
 
 function App() {
   const { t, i18n: { changeLanguage, language } } = useTranslation()
   const [content, setContent] = useState('about')
+
+  let concreteCount = 0;
+  let steelCount = 0;
+  let MasonryCount = 0;
+  let areaCount = 0;
+  let cities = new Set();
+
+  projectsData["projects"].forEach(project => {
+    const categories = project["categories"]
+
+    if (categories.includes("Concreto Armado")) concreteCount++;
+    if (categories.includes("Estrutura Metálica")) steelCount++;
+    if (categories.includes("Alvenaria Estrutural")) MasonryCount++;
+
+    areaCount += project.area;
+    cities.add(project.city);
+  });
 
   useEffect(() => {
     document.querySelector("body").setAttribute('data-theme', 'dark')
@@ -128,9 +141,9 @@ function App() {
               <li className={styles.navbarItem}>
                 <button className={content === "biography" ? styles.navbarButtonSelected : styles.navbarButton} onClick={() => setContent("biography")}>{t("navbar-biography")}</button>
               </li>
-              {/* <li className={styles.navbarItem}>
+              <li className={styles.navbarItem}>
                 <button className={content === "portfolio" ? styles.navbarButtonSelected : styles.navbarButton} onClick={() => setContent("portfolio")}>{t("navbar-portfolio")}</button>
-              </li> */}
+              </li>
             </ul>
             {/* ABOUT */}
             {content === "about" && (
@@ -305,83 +318,56 @@ function App() {
               </div>
             )}
             {/* PORTFOLIO */}
-            {/* {content === "portfolio" && (
-              <article class="portfólio" data-page="portfólio">
-                <header>
-                  <h2 class="h2 article-title">Portfólio</h2>
-                </header>
-                <section class="projects">
-                  <ul class="filter-list">
-                    <li class="filter-item">
-                      <button class="active" data-filter-btn>Todos</button>
-                    </li>
-                    <li class="filter-item">
-                      <button data-filter-btn>Projetista Estrutural</button>
-                    </li>
-                    <li class="filter-item">
-                      <button data-filter-btn>Desenvolvimento Web</button>
-                    </li>
-                  </ul>
-                  <div class="filter-select-box">
-                    <button class="filter-select" data-select>
-                      <div class="select-value" data-selecct-value>Selecionar categoria</div>
-                      <div class="select-icon">
-                        <ion-icon name="chevron-down"></ion-icon>
-                      </div>
-                    </button>
-                    <ul class="select-list">
-                      <li class="select-item">
-                        <button data-select-item>Todos</button>
-                      </li>
-                      <li class="select-item">
-                        <button data-select-item>Projetista Estrutural</button>
-                      </li>
-                      <li class="select-item">
-                        <button data-select-item>Desenvolvimento Web</button>
-                      </li>
-                    </ul>
+            {content === "portfolio" && (
+              <div className={styles.portfolio}>
+                <div className={styles.portfolioRow}>
+                  <div className={styles.portfolioItem}>
+                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-1")}</h1>
+                    <h1 className={styles.portfolioText}>{projectsData["projects"].length}</h1>
                   </div>
-                  <ul class="project-list">
-                    <li class="project-item  active" data-filter-item data-category="projetista estrutural">
-                      <a href="#">
-                        <figure class="project-img">
-                          <div class="project-item-icon-box">
-                            <ion-icon name="eye-outline"></ion-icon>
-                          </div>
-                          <img src={project1} alt="rotinas" loading="lazy"></img>
-                        </figure>
-                        <h3 class="project-title">Rotinas Dynamo</h3>
-                        <p class="project-category">Projetista Estrutural</p>
-                      </a>
-                    </li>
-                    <li class="project-item  active" data-filter-item data-category="desenvolvimento web">
-                      <a href="https://engenhars.com.br">
-                        <figure class="project-img">
-                          <div class="project-item-icon-box">
-                            <ion-icon name="eye-outline"></ion-icon>
-                          </div>
-                          <img src={project2} alt="quantitars" loading="lazy"></img>
-                        </figure>
-                        <h3 class="project-title">QuantitArs</h3>
-                        <p class="project-category">Desenvolvimento Web</p>
-                      </a>
-                    </li>
-                    <li class="project-item  active" data-filter-item data-category="desenvolvimento web">
-                      <a href="https://engenhars.com.br">
-                        <figure class="project-img">
-                          <div class="project-item-icon-box">
-                            <ion-icon name="eye-outline"></ion-icon>
-                          </div>
-                          <img src={project3} alt="fundars" loading="lazy"></img>
-                        </figure>
-                        <h3 class="project-title">FundArs</h3>
-                        <p class="project-category">Desenvolvimento Web</p>
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </article>
-            )} */}
+                </div>
+                <div className={styles.portfolioRow}>
+                  <div className={styles.portfolioItem}>
+                    <h1 className={styles.portfolioTitle} margin="0px">{t("portfolio-title-2")}</h1>
+                    <h1 className={styles.portfolioText}>{concreteCount}</h1>
+                  </div>
+                  <div className={styles.portfolioItem}>
+                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-3")}</h1>
+                    <h1 className={styles.portfolioText}>{steelCount}</h1>
+                  </div>
+                  <div className={styles.portfolioItem}>
+                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-4")}</h1>
+                    <h1 className={styles.portfolioText}>{MasonryCount}</h1>
+                  </div>
+                </div>
+                <div className={styles.portfolioRow}>
+                  <div className={styles.portfolioItem}>
+                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-5")}</h1>
+                    <h1 className={styles.portfolioText}>{cities.size}</h1>
+                  </div>
+                  <div className={styles.portfolioItem}>
+                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-6")}</h1>
+                    <h1 className={styles.portfolioText}>{areaCount.toFixed(2)} m²</h1>
+                  </div>
+                </div>
+                <div className={styles.portfolioMap}>
+                  {language === 'pt' && (
+                    <iframe
+                      src='./src/assets/map/projects-pt.html'
+                      style={{width: '100%',height: '100%', border: 'none' }}
+                      title="Mapa de Projetos"
+                    />
+                  )}
+                  {language === 'en' && (
+                    <iframe
+                      src='./src/assets/map/projects-en.html'
+                      style={{width: '100%', height: '100%', border: 'none' }}
+                      title="Mapa de Projetos"
+                    />
+                  )}
+                </div>
+              </div>
+            )}
         </div>
       </div>
     </div>
