@@ -6,7 +6,7 @@ with open('portfolio.json', 'r', encoding='utf-8') as arquivo:
 
 map_1 = folium.Map(location=[-15.857114225923164, -47.87313174137835], zoom_start=4)
 
-language = "pt"
+language = "en"
 
 for data_item in data["projects"]:
     latitude = data_item["locate"].split(",")[0]

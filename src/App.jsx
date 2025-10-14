@@ -30,7 +30,6 @@ function App() {
 
   let concreteCount = 0;
   let steelCount = 0;
-  let MasonryCount = 0;
   let areaCount = 0;
   let cities = new Set();
 
@@ -39,7 +38,6 @@ function App() {
 
     if (categories.includes("Concreto Armado")) concreteCount++;
     if (categories.includes("Estrutura Metálica")) steelCount++;
-    if (categories.includes("Alvenaria Estrutural")) MasonryCount++;
 
     areaCount += project.area;
     cities.add(project.city);
@@ -314,6 +312,18 @@ function App() {
                       </p>
                     </li>
                   </ol>
+                  <ol className={styles.biographyList}>
+                    <li className={styles.biographyItem}>
+                      <h3 className={styles.title3}>{t("biography-2-header-3")}</h3>
+                      <span>{t("biography-2-year-3")}</span>
+                      <p>
+                        {t("biography-2-text-3-1")}
+                      </p>
+                      <p>
+                        {t("biography-2-text-3-2")}
+                      </p>
+                    </li>
+                  </ol>
                 </div>
               </div>
             )}
@@ -335,18 +345,14 @@ function App() {
                     <h1 className={styles.portfolioTitle}>{t("portfolio-title-3")}</h1>
                     <h1 className={styles.portfolioText}>{steelCount}</h1>
                   </div>
-                  <div className={styles.portfolioItem}>
-                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-4")}</h1>
-                    <h1 className={styles.portfolioText}>{MasonryCount}</h1>
-                  </div>
                 </div>
                 <div className={styles.portfolioRow}>
                   <div className={styles.portfolioItem}>
-                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-5")}</h1>
+                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-4")}</h1>
                     <h1 className={styles.portfolioText}>{cities.size}</h1>
                   </div>
                   <div className={styles.portfolioItem}>
-                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-6")}</h1>
+                    <h1 className={styles.portfolioTitle}>{t("portfolio-title-5")}</h1>
                     <h1 className={styles.portfolioText}>{areaCount.toFixed(2)} m²</h1>
                   </div>
                 </div>
