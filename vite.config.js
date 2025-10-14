@@ -5,4 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/",
+  build: {
+    outDir: "dist", // 🔒 garante que o build sempre vá pra pasta correta
+    emptyOutDir: true, // limpa só a dist antes do build
+  },
 });
