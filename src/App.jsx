@@ -359,14 +359,14 @@ function App() {
                 <div className={styles.portfolioMap}>
                   {language === 'pt' && (
                     <iframe
-                      src='../projects-pt.html'
+                      src='/projects-pt.html'
                       style={{width: '100%',height: '100%', border: 'none' }}
                       title="Mapa de Projetos"
                     />
                   )}
                   {language === 'en' && (
                     <iframe
-                      src='../projects-en.html'
+                      src='/projects-en.html'
                       style={{width: '100%', height: '100%', border: 'none' }}
                       title="Mapa de Projetos"
                     />

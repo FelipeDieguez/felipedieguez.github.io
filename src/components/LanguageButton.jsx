@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from "./LanguageButton.module.css"
 
 function LanguageButton({ t, changeLanguage }) {
-  const [flagUrl, setFlagUrl] = useState("https://flagcdn.com/w320/us.png");
+  const [flagUrl, setFlagUrl] = useState("https://flagcdn.com/w320/br.png");
 
   const handleChangeLanguage = (selectedLanguage) => {
     changeLanguage(selectedLanguage)
