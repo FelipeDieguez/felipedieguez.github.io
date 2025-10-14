@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b6383569e1e83205df8a666cfd80c360 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b6383569e1e83205df8a666cfd80c360" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b6383569e1e83205df8a666cfd80c360 = L.map(
+                "map_b6383569e1e83205df8a666cfd80c360",
+                {
+                    center: [-15.857114225923164, -47.87313174137835],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b1df09d087185904308e819c2ce4a198 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b1df09d087185904308e819c2ce4a198.addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var marker_8b0a318a5bd8731ef4c128b0abc63070 = L.marker(
+                [-31.387570739277358, -54.11268174363579],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_a249eff2a2ec70dfb1465b72f231426c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df0716f09390c530333bbd1bc04a1300 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_6953e745c751deaef1fccb47592adcdc = $(`<div id="html_6953e745c751deaef1fccb47592adcdc" style="width: 100.0%; height: 100.0%;"><i>City: Bagé</i><br><i>Project Type: Foundations, Load Bearing Masonry Structure, Steel Structure</i><br><i>Footage: 81.6 m²</i></div>`)[0];
+                popup_df0716f09390c530333bbd1bc04a1300.setContent(html_6953e745c751deaef1fccb47592adcdc);
+            
+        
+
+        marker_8b0a318a5bd8731ef4c128b0abc63070.bindPopup(popup_df0716f09390c530333bbd1bc04a1300)
+        ;
+
+        
+    
+    
+                marker_8b0a318a5bd8731ef4c128b0abc63070.setIcon(icon_a249eff2a2ec70dfb1465b72f231426c);
+            
+    
+            var marker_f41fd5adc2a91635a704c1683bf319f4 = L.marker(
+                [-16.62954336128999, -49.21402995197188],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_a8d4572dbe65167ad1dd771f312474b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_506bedf6d2319381bff575c1a8e8739b = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_89d571dfe64338e7db0f4367f5d66109 = $(`<div id="html_89d571dfe64338e7db0f4367f5d66109" style="width: 100.0%; height: 100.0%;"><i>City: Goiânia</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 29.43 m²</i></div>`)[0];
+                popup_506bedf6d2319381bff575c1a8e8739b.setContent(html_89d571dfe64338e7db0f4367f5d66109);
+            
+        
+
+        marker_f41fd5adc2a91635a704c1683bf319f4.bindPopup(popup_506bedf6d2319381bff575c1a8e8739b)
+        ;
+
+        
+    
+    
+                marker_f41fd5adc2a91635a704c1683bf319f4.setIcon(icon_a8d4572dbe65167ad1dd771f312474b5);
+            
+    
+            var marker_6d715bd28538fb71466bf7f395fc2091 = L.marker(
+                [-5.531518316961253, -47.455419544705954],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_198fb7edd45b94c8222ea95c4aeffbcc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a21cb205cf485ecdaba15453b0701ffb = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_f291400e0443e5e110c42a60303d13cc = $(`<div id="html_f291400e0443e5e110c42a60303d13cc" style="width: 100.0%; height: 100.0%;"><i>City: Imperatriz</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 5466.18 m²</i></div>`)[0];
+                popup_a21cb205cf485ecdaba15453b0701ffb.setContent(html_f291400e0443e5e110c42a60303d13cc);
+            
+        
+
+        marker_6d715bd28538fb71466bf7f395fc2091.bindPopup(popup_a21cb205cf485ecdaba15453b0701ffb)
+        ;
+
+        
+    
+    
+                marker_6d715bd28538fb71466bf7f395fc2091.setIcon(icon_198fb7edd45b94c8222ea95c4aeffbcc);
+            
+    
+            var marker_edcf48d9cae7317497ab356a627ea3a9 = L.marker(
+                [-26.225232561419883, -48.801735623454746],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_025108e7365359ceba0d3e9db63020ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32a650e455617d30a0b0352307915c81 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_4ce08848f57ecfe0769e2718a13fd8a1 = $(`<div id="html_4ce08848f57ecfe0769e2718a13fd8a1" style="width: 100.0%; height: 100.0%;"><i>City: Joinville</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 4333.73 m²</i></div>`)[0];
+                popup_32a650e455617d30a0b0352307915c81.setContent(html_4ce08848f57ecfe0769e2718a13fd8a1);
+            
+        
+
+        marker_edcf48d9cae7317497ab356a627ea3a9.bindPopup(popup_32a650e455617d30a0b0352307915c81)
+        ;
+
+        
+    
+    
+                marker_edcf48d9cae7317497ab356a627ea3a9.setIcon(icon_025108e7365359ceba0d3e9db63020ed);
+            
+    
+            var marker_6efdb13617f7a7711b5c20bd5d017baa = L.marker(
+                [-23.328334736829106, -51.13715707326139],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_f509a06fad314ddca6481fd5b3c5607c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba0d3113033acf1dbf352cd413e4c221 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_a176c73b576b85700ed5f1a89ebe83ca = $(`<div id="html_a176c73b576b85700ed5f1a89ebe83ca" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 3619.13 m²</i></div>`)[0];
+                popup_ba0d3113033acf1dbf352cd413e4c221.setContent(html_a176c73b576b85700ed5f1a89ebe83ca);
+            
+        
+
+        marker_6efdb13617f7a7711b5c20bd5d017baa.bindPopup(popup_ba0d3113033acf1dbf352cd413e4c221)
+        ;
+
+        
+    
+    
+                marker_6efdb13617f7a7711b5c20bd5d017baa.setIcon(icon_f509a06fad314ddca6481fd5b3c5607c);
+            
+    
+            var marker_c1084ea5dd1891fd680660df914e1765 = L.marker(
+                [-10.295479836305995, -48.35762014235678],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_e3f962286876ac338a0a552600737173 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c34addb012c3584a12ab9e35b2db2e8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_430694fd4f1c6a46f5049bda431a35a4 = $(`<div id="html_430694fd4f1c6a46f5049bda431a35a4" style="width: 100.0%; height: 100.0%;"><i>City: Palmas</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 240.68 m²</i></div>`)[0];
+                popup_2c34addb012c3584a12ab9e35b2db2e8.setContent(html_430694fd4f1c6a46f5049bda431a35a4);
+            
+        
+
+        marker_c1084ea5dd1891fd680660df914e1765.bindPopup(popup_2c34addb012c3584a12ab9e35b2db2e8)
+        ;
+
+        
+    
+    
+                marker_c1084ea5dd1891fd680660df914e1765.setIcon(icon_e3f962286876ac338a0a552600737173);
+            
+    
+            var marker_8ae8d37427e2e03f10a3a0b84f65da99 = L.marker(
+                [-31.715640140835585, -52.33071552588862],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_c1713367216c80dedf8669bc16de65cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8304c6120bbcbd699459f7f1859d8562 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_e9b0f3ef05ba98ccf8493807ee259a3f = $(`<div id="html_e9b0f3ef05ba98ccf8493807ee259a3f" style="width: 100.0%; height: 100.0%;"><i>City: Pelotas</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 2107.19 m²</i></div>`)[0];
+                popup_8304c6120bbcbd699459f7f1859d8562.setContent(html_e9b0f3ef05ba98ccf8493807ee259a3f);
+            
+        
+
+        marker_8ae8d37427e2e03f10a3a0b84f65da99.bindPopup(popup_8304c6120bbcbd699459f7f1859d8562)
+        ;
+
+        
+    
+    
+                marker_8ae8d37427e2e03f10a3a0b84f65da99.setIcon(icon_c1713367216c80dedf8669bc16de65cd);
+            
+    
+            var marker_25e3a94c9c4a0795e25488b93d30f5d6 = L.marker(
+                [-9.366447718028487, -40.56512221168284],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_873d047c2927b6af7139cad35966c61f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b087fcde622511b26f437395822796b = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_68d5ee5f9fe9990d5578669f82c85622 = $(`<div id="html_68d5ee5f9fe9990d5578669f82c85622" style="width: 100.0%; height: 100.0%;"><i>City: Petrolina</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 4077.5 m²</i></div>`)[0];
+                popup_9b087fcde622511b26f437395822796b.setContent(html_68d5ee5f9fe9990d5578669f82c85622);
+            
+        
+
+        marker_25e3a94c9c4a0795e25488b93d30f5d6.bindPopup(popup_9b087fcde622511b26f437395822796b)
+        ;
+
+        
+    
+    
+                marker_25e3a94c9c4a0795e25488b93d30f5d6.setIcon(icon_873d047c2927b6af7139cad35966c61f);
+            
+    
+            var marker_d5386aab6fe6e1e6e196a71daccd18a3 = L.marker(
+                [-2.586523911636214, -44.236203231089185],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_6a313018372cdae15f6e6e081891c179 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d85e7a29f2fc3e7496c2b4512d31f4d1 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_cd719179bf637fa368c97be557f94404 = $(`<div id="html_cd719179bf637fa368c97be557f94404" style="width: 100.0%; height: 100.0%;"><i>City: São Luís</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 2548.75 m²</i></div>`)[0];
+                popup_d85e7a29f2fc3e7496c2b4512d31f4d1.setContent(html_cd719179bf637fa368c97be557f94404);
+            
+        
+
+        marker_d5386aab6fe6e1e6e196a71daccd18a3.bindPopup(popup_d85e7a29f2fc3e7496c2b4512d31f4d1)
+        ;
+
+        
+    
+    
+                marker_d5386aab6fe6e1e6e196a71daccd18a3.setIcon(icon_6a313018372cdae15f6e6e081891c179);
+            
+    
+            var marker_16d8498d5b3176df57fc1eba98d26c1a = L.marker(
+                [-29.783874124050595, -57.03594736644616],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_20d178989f8eec3ffe1fe39d187f0486 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_783572269f512003645886f881fd7543 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_462c9f575032115269a66766af33be8a = $(`<div id="html_462c9f575032115269a66766af33be8a" style="width: 100.0%; height: 100.0%;"><i>City: Uruguaiana</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 1295.82 m²</i></div>`)[0];
+                popup_783572269f512003645886f881fd7543.setContent(html_462c9f575032115269a66766af33be8a);
+            
+        
+
+        marker_16d8498d5b3176df57fc1eba98d26c1a.bindPopup(popup_783572269f512003645886f881fd7543)
+        ;
+
+        
+    
+    
+                marker_16d8498d5b3176df57fc1eba98d26c1a.setIcon(icon_20d178989f8eec3ffe1fe39d187f0486);
+            
+    
+            var marker_aa9379b38e13010211d938036dcd20bc = L.marker(
+                [-27.22726083511816, -52.671252619184926],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_cb20c38aed6ca08838a8525d2432cff7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_578fc3dfa0bfc13824e4b59c0c59d9ce = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_cab5752feba0ecbdac50f2136f2d510c = $(`<div id="html_cab5752feba0ecbdac50f2136f2d510c" style="width: 100.0%; height: 100.0%;"><i>City: Chapecó</i><br><i>Project Type: Foundations, Reinforced Concrete Structure</i><br><i>Footage: 115.41 m²</i></div>`)[0];
+                popup_578fc3dfa0bfc13824e4b59c0c59d9ce.setContent(html_cab5752feba0ecbdac50f2136f2d510c);
+            
+        
+
+        marker_aa9379b38e13010211d938036dcd20bc.bindPopup(popup_578fc3dfa0bfc13824e4b59c0c59d9ce)
+        ;
+
+        
+    
+    
+                marker_aa9379b38e13010211d938036dcd20bc.setIcon(icon_cb20c38aed6ca08838a8525d2432cff7);
+            
+    
+            var marker_1fa6e8ac76e77001564ec4767c3e4671 = L.marker(
+                [-23.455579790355998, -51.42902340972505],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_64bf43969d8cc7eed85c5d27e3e888b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24929b8aac69f50719f37544610e11c3 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_f079e37f108449c95afe77dcd324bc7e = $(`<div id="html_f079e37f108449c95afe77dcd324bc7e" style="width: 100.0%; height: 100.0%;"><i>City: Arapongas</i><br><i>Project Type: Foundations, Reinforced Concrete Structure</i><br><i>Footage: 188.94 m²</i></div>`)[0];
+                popup_24929b8aac69f50719f37544610e11c3.setContent(html_f079e37f108449c95afe77dcd324bc7e);
+            
+        
+
+        marker_1fa6e8ac76e77001564ec4767c3e4671.bindPopup(popup_24929b8aac69f50719f37544610e11c3)
+        ;
+
+        
+    
+    
+                marker_1fa6e8ac76e77001564ec4767c3e4671.setIcon(icon_64bf43969d8cc7eed85c5d27e3e888b5);
+            
+    
+            var marker_05652f10c9824a6f1b4a8e861834caa6 = L.marker(
+                [-23.262281185086998, -51.203960683145205],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_4d50d3e095f4a6112a7fd1b98f406feb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76663922dbbaa365f194b3b5af508f8c = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_9e6000a7b98e4b1a48082a23f9780053 = $(`<div id="html_9e6000a7b98e4b1a48082a23f9780053" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Load Bearing Masonry Structure</i><br><i>Footage: 967.8 m²</i></div>`)[0];
+                popup_76663922dbbaa365f194b3b5af508f8c.setContent(html_9e6000a7b98e4b1a48082a23f9780053);
+            
+        
+
+        marker_05652f10c9824a6f1b4a8e861834caa6.bindPopup(popup_76663922dbbaa365f194b3b5af508f8c)
+        ;
+
+        
+    
+    
+                marker_05652f10c9824a6f1b4a8e861834caa6.setIcon(icon_4d50d3e095f4a6112a7fd1b98f406feb);
+            
+    
+            var marker_20616cdaa1f70c5cfa75533eed85e4d2 = L.marker(
+                [-25.445274926487308, -49.26752460423677],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_92fe2d26ebabd7ed175505c42a9b221b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ba45b9576487ac93cd438f1ee0cbc0f = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_bd514f7e0e3fc7dcc9a64be84c7b7e01 = $(`<div id="html_bd514f7e0e3fc7dcc9a64be84c7b7e01" style="width: 100.0%; height: 100.0%;"><i>City: Curitiba</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 296.62 m²</i></div>`)[0];
+                popup_3ba45b9576487ac93cd438f1ee0cbc0f.setContent(html_bd514f7e0e3fc7dcc9a64be84c7b7e01);
+            
+        
+
+        marker_20616cdaa1f70c5cfa75533eed85e4d2.bindPopup(popup_3ba45b9576487ac93cd438f1ee0cbc0f)
+        ;
+
+        
+    
+    
+                marker_20616cdaa1f70c5cfa75533eed85e4d2.setIcon(icon_92fe2d26ebabd7ed175505c42a9b221b);
+            
+    
+            var marker_11eaf341ef4b107503181d5495c86a29 = L.marker(
+                [-25.445274926487308, -49.26752460423677],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_c156cb18e6cf3c7f227e53f208ece7de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93932d7c135381302aa9e2218b568ece = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_b8797f511dc3a843c5d35ea447eaeb6c = $(`<div id="html_b8797f511dc3a843c5d35ea447eaeb6c" style="width: 100.0%; height: 100.0%;"><i>City: Curitiba</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 146.55 m²</i></div>`)[0];
+                popup_93932d7c135381302aa9e2218b568ece.setContent(html_b8797f511dc3a843c5d35ea447eaeb6c);
+            
+        
+
+        marker_11eaf341ef4b107503181d5495c86a29.bindPopup(popup_93932d7c135381302aa9e2218b568ece)
+        ;
+
+        
+    
+    
+                marker_11eaf341ef4b107503181d5495c86a29.setIcon(icon_c156cb18e6cf3c7f227e53f208ece7de);
+            
+    
+            var marker_322793b00e3b2385b30ef1c46141ab5f = L.marker(
+                [-22.695741464558004, -43.627394707451984],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_e699beffd2daa6219d342226ab3e4de6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15e68df54d9a724988a59497abf1eeda = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_14c40bf9c3989b98218dee50fa23165a = $(`<div id="html_14c40bf9c3989b98218dee50fa23165a" style="width: 100.0%; height: 100.0%;"><i>City: Japeri</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 160.85 m²</i></div>`)[0];
+                popup_15e68df54d9a724988a59497abf1eeda.setContent(html_14c40bf9c3989b98218dee50fa23165a);
+            
+        
+
+        marker_322793b00e3b2385b30ef1c46141ab5f.bindPopup(popup_15e68df54d9a724988a59497abf1eeda)
+        ;
+
+        
+    
+    
+                marker_322793b00e3b2385b30ef1c46141ab5f.setIcon(icon_e699beffd2daa6219d342226ab3e4de6);
+            
+    
+            var marker_5c2bdabb05d62a707679ac99d17eb623 = L.marker(
+                [-21.7844532466422, -43.368058353030804],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_2d0e855c5bc19d520fd992662c9fe086 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc8159e7805578388d3631f38b1c53da = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_98ede02e680e9de108737901202b022a = $(`<div id="html_98ede02e680e9de108737901202b022a" style="width: 100.0%; height: 100.0%;"><i>City: Juiz de Fora</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 1318.04 m²</i></div>`)[0];
+                popup_bc8159e7805578388d3631f38b1c53da.setContent(html_98ede02e680e9de108737901202b022a);
+            
+        
+
+        marker_5c2bdabb05d62a707679ac99d17eb623.bindPopup(popup_bc8159e7805578388d3631f38b1c53da)
+        ;
+
+        
+    
+    
+                marker_5c2bdabb05d62a707679ac99d17eb623.setIcon(icon_2d0e855c5bc19d520fd992662c9fe086);
+            
+    
+            var marker_103976c639e4565df9719213888cc73b = L.marker(
+                [-21.785030446251657, -43.3678456568851],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_ebb9ee324f3518fdd348b6977051074c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f92039b8c98c396daeee152c724e32c8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_72662791d12d5e27e8cb2e3686744465 = $(`<div id="html_72662791d12d5e27e8cb2e3686744465" style="width: 100.0%; height: 100.0%;"><i>City: Juiz de Fora</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 305.8 m²</i></div>`)[0];
+                popup_f92039b8c98c396daeee152c724e32c8.setContent(html_72662791d12d5e27e8cb2e3686744465);
+            
+        
+
+        marker_103976c639e4565df9719213888cc73b.bindPopup(popup_f92039b8c98c396daeee152c724e32c8)
+        ;
+
+        
+    
+    
+                marker_103976c639e4565df9719213888cc73b.setIcon(icon_ebb9ee324f3518fdd348b6977051074c);
+            
+    
+            var marker_579088092255c997c3f83cbcbf2b48f8 = L.marker(
+                [-21.785717401678642, -43.36892376668692],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_473c6fd1c44173e6736234dcc3a7997c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90ddf1f026a5e4b1a0542183aa60773f = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_e2cbe91587088be689bba1307f9c797c = $(`<div id="html_e2cbe91587088be689bba1307f9c797c" style="width: 100.0%; height: 100.0%;"><i>City: Juiz de Fora</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 623.28 m²</i></div>`)[0];
+                popup_90ddf1f026a5e4b1a0542183aa60773f.setContent(html_e2cbe91587088be689bba1307f9c797c);
+            
+        
+
+        marker_579088092255c997c3f83cbcbf2b48f8.bindPopup(popup_90ddf1f026a5e4b1a0542183aa60773f)
+        ;
+
+        
+    
+    
+                marker_579088092255c997c3f83cbcbf2b48f8.setIcon(icon_473c6fd1c44173e6736234dcc3a7997c);
+            
+    
+            var marker_e270b978fe99998ad1e1b1096fed381f = L.marker(
+                [-26.09740963654876, -49.427695733791595],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_537caf8ded066e6682f41641c571020c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2412c98fc92b7a2b2d6b82b9b1382f29 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_236350f5e76a79885865b3ea9ab06f47 = $(`<div id="html_236350f5e76a79885865b3ea9ab06f47" style="width: 100.0%; height: 100.0%;"><i>City: Piên</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 377.09 m²</i></div>`)[0];
+                popup_2412c98fc92b7a2b2d6b82b9b1382f29.setContent(html_236350f5e76a79885865b3ea9ab06f47);
+            
+        
+
+        marker_e270b978fe99998ad1e1b1096fed381f.bindPopup(popup_2412c98fc92b7a2b2d6b82b9b1382f29)
+        ;
+
+        
+    
+    
+                marker_e270b978fe99998ad1e1b1096fed381f.setIcon(icon_537caf8ded066e6682f41641c571020c);
+            
+    
+            var marker_b9b3063a6a08f2144d5296e64852dd9a = L.marker(
+                [-25.441859193712194, -49.14660535354054],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_0872943441242e28e61b5ca62834d585 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21ad13609c6a31ac22b02f070d067677 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_8dd4e83cf887aa7cc5116d28212a8079 = $(`<div id="html_8dd4e83cf887aa7cc5116d28212a8079" style="width: 100.0%; height: 100.0%;"><i>City: Pinhais</i><br><i>Project Type: Reinforced Concrete Structure</i><br><i>Footage: 1107 m²</i></div>`)[0];
+                popup_21ad13609c6a31ac22b02f070d067677.setContent(html_8dd4e83cf887aa7cc5116d28212a8079);
+            
+        
+
+        marker_b9b3063a6a08f2144d5296e64852dd9a.bindPopup(popup_21ad13609c6a31ac22b02f070d067677)
+        ;
+
+        
+    
+    
+                marker_b9b3063a6a08f2144d5296e64852dd9a.setIcon(icon_0872943441242e28e61b5ca62834d585);
+            
+    
+            var marker_f125dc17d058c6eb7350c5038823ad13 = L.marker(
+                [-15.57771816897074, -56.09929971836419],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_24e28d81cd6aa2b19bb9128d7e76ebe1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95bb9ddb1b56ebf4547761499d7dc846 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_02f0c0d9ed6b6417a346998e9ab5f5cc = $(`<div id="html_02f0c0d9ed6b6417a346998e9ab5f5cc" style="width: 100.0%; height: 100.0%;"><i>City: Cuiabá</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 2438.73 m²</i></div>`)[0];
+                popup_95bb9ddb1b56ebf4547761499d7dc846.setContent(html_02f0c0d9ed6b6417a346998e9ab5f5cc);
+            
+        
+
+        marker_f125dc17d058c6eb7350c5038823ad13.bindPopup(popup_95bb9ddb1b56ebf4547761499d7dc846)
+        ;
+
+        
+    
+    
+                marker_f125dc17d058c6eb7350c5038823ad13.setIcon(icon_24e28d81cd6aa2b19bb9128d7e76ebe1);
+            
+    
+            var marker_4d8d01f02375d4b2095d388bb539b04a = L.marker(
+                [-20.455780112204646, -54.595548766533824],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_7842dfdc7702f10c57f80abd2d48f4e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c6dc38f641c2f856113a3a1f4086611 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_f6c0276d993c752dbd5bf7cba20449e5 = $(`<div id="html_f6c0276d993c752dbd5bf7cba20449e5" style="width: 100.0%; height: 100.0%;"><i>City: Campo Grande</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 11.57 m²</i></div>`)[0];
+                popup_9c6dc38f641c2f856113a3a1f4086611.setContent(html_f6c0276d993c752dbd5bf7cba20449e5);
+            
+        
+
+        marker_4d8d01f02375d4b2095d388bb539b04a.bindPopup(popup_9c6dc38f641c2f856113a3a1f4086611)
+        ;
+
+        
+    
+    
+                marker_4d8d01f02375d4b2095d388bb539b04a.setIcon(icon_7842dfdc7702f10c57f80abd2d48f4e1);
+            
+    
+            var marker_875b4e10ce635d27b3f68f696de7d9a4 = L.marker(
+                [-20.465232207718046, -54.571935504250874],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_74205f06ebef452a2d7184a6c32c9c69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_900e2c3cce13a0da6d92085a85c37e94 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_2a39aec2ea05bc6281e5e39d304429e9 = $(`<div id="html_2a39aec2ea05bc6281e5e39d304429e9" style="width: 100.0%; height: 100.0%;"><i>City: Campo Grande</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 371.37 m²</i></div>`)[0];
+                popup_900e2c3cce13a0da6d92085a85c37e94.setContent(html_2a39aec2ea05bc6281e5e39d304429e9);
+            
+        
+
+        marker_875b4e10ce635d27b3f68f696de7d9a4.bindPopup(popup_900e2c3cce13a0da6d92085a85c37e94)
+        ;
+
+        
+    
+    
+                marker_875b4e10ce635d27b3f68f696de7d9a4.setIcon(icon_74205f06ebef452a2d7184a6c32c9c69);
+            
+    
+            var marker_c6044d886b4508e76abe532966214b9e = L.marker(
+                [-20.457806015824534, -54.59972790281995],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_a55f3a9bbfd6f378b58f984ae801f5cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c62168ea55ac849a66c879da2c0db4e = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_bfbd8b9fef9c5ea8b2ede5f86695e526 = $(`<div id="html_bfbd8b9fef9c5ea8b2ede5f86695e526" style="width: 100.0%; height: 100.0%;"><i>City: Campo Grande</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 19.31 m²</i></div>`)[0];
+                popup_4c62168ea55ac849a66c879da2c0db4e.setContent(html_bfbd8b9fef9c5ea8b2ede5f86695e526);
+            
+        
+
+        marker_c6044d886b4508e76abe532966214b9e.bindPopup(popup_4c62168ea55ac849a66c879da2c0db4e)
+        ;
+
+        
+    
+    
+                marker_c6044d886b4508e76abe532966214b9e.setIcon(icon_a55f3a9bbfd6f378b58f984ae801f5cf);
+            
+    
+            var marker_6f21438ef67fb52959aee798296e14e1 = L.marker(
+                [-23.330606795598264, -51.18251977511147],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_9effbe94a6bb2e80b00c3aa377da862b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59db3ff6337980b68a6152a078a8525b = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_da813d171a3e9aa38fdcdf44361f4e61 = $(`<div id="html_da813d171a3e9aa38fdcdf44361f4e61" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 0.65 m²</i></div>`)[0];
+                popup_59db3ff6337980b68a6152a078a8525b.setContent(html_da813d171a3e9aa38fdcdf44361f4e61);
+            
+        
+
+        marker_6f21438ef67fb52959aee798296e14e1.bindPopup(popup_59db3ff6337980b68a6152a078a8525b)
+        ;
+
+        
+    
+    
+                marker_6f21438ef67fb52959aee798296e14e1.setIcon(icon_9effbe94a6bb2e80b00c3aa377da862b);
+            
+    
+            var marker_11dcfc979275efabbcd02c6fbc4ded46 = L.marker(
+                [-23.327053990123137, -51.1823185722471],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_87ceec69d6e815142c354aeb4c619cf8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_062e94ce95befdc10ced1d481b7f628f = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_24e510821d53a28959076c3ad301e277 = $(`<div id="html_24e510821d53a28959076c3ad301e277" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 18.45 m²</i></div>`)[0];
+                popup_062e94ce95befdc10ced1d481b7f628f.setContent(html_24e510821d53a28959076c3ad301e277);
+            
+        
+
+        marker_11dcfc979275efabbcd02c6fbc4ded46.bindPopup(popup_062e94ce95befdc10ced1d481b7f628f)
+        ;
+
+        
+    
+    
+                marker_11dcfc979275efabbcd02c6fbc4ded46.setIcon(icon_87ceec69d6e815142c354aeb4c619cf8);
+            
+    
+            var marker_4611e3def85693259efa58ca11a5302c = L.marker(
+                [-23.32743256557842, -51.18079392226813],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_ec8cc26e03adc829a47f82cacad2ccdd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d4e4be56367aadc968109df14ac439d = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_329cdaef4ebf51d721599f1411fa0023 = $(`<div id="html_329cdaef4ebf51d721599f1411fa0023" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 105.8 m²</i></div>`)[0];
+                popup_3d4e4be56367aadc968109df14ac439d.setContent(html_329cdaef4ebf51d721599f1411fa0023);
+            
+        
+
+        marker_4611e3def85693259efa58ca11a5302c.bindPopup(popup_3d4e4be56367aadc968109df14ac439d)
+        ;
+
+        
+    
+    
+                marker_4611e3def85693259efa58ca11a5302c.setIcon(icon_ec8cc26e03adc829a47f82cacad2ccdd);
+            
+    
+            var marker_ffd0547a38cd71c1841bd2a85d9711ee = L.marker(
+                [-22.695741464558004, -43.627394707451984],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_9deb910a8df692b6d76bdd1701cd3fc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3bb73ae365958027b562d04304a28089 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_970af471b0d4ba05e483fdc2b7910dde = $(`<div id="html_970af471b0d4ba05e483fdc2b7910dde" style="width: 100.0%; height: 100.0%;"><i>City: Japeri</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 14.05 m²</i></div>`)[0];
+                popup_3bb73ae365958027b562d04304a28089.setContent(html_970af471b0d4ba05e483fdc2b7910dde);
+            
+        
+
+        marker_ffd0547a38cd71c1841bd2a85d9711ee.bindPopup(popup_3bb73ae365958027b562d04304a28089)
+        ;
+
+        
+    
+    
+                marker_ffd0547a38cd71c1841bd2a85d9711ee.setIcon(icon_9deb910a8df692b6d76bdd1701cd3fc5);
+            
+    
+            var marker_e440fae2e46bb9e6f683753673d3813a = L.marker(
+                [-23.423068752765523, -51.92739229045254],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_9003c8c66da98fc4ad08418e7529475a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_936acee52caa108f12d37d2482dfecd9 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_515313fa253a1129857d402cbf581c5a = $(`<div id="html_515313fa253a1129857d402cbf581c5a" style="width: 100.0%; height: 100.0%;"><i>City: Maringá</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 107.74 m²</i></div>`)[0];
+                popup_936acee52caa108f12d37d2482dfecd9.setContent(html_515313fa253a1129857d402cbf581c5a);
+            
+        
+
+        marker_e440fae2e46bb9e6f683753673d3813a.bindPopup(popup_936acee52caa108f12d37d2482dfecd9)
+        ;
+
+        
+    
+    
+                marker_e440fae2e46bb9e6f683753673d3813a.setIcon(icon_9003c8c66da98fc4ad08418e7529475a);
+            
+    
+            var marker_c28dae2fed8d70a8d097264d21faa379 = L.marker(
+                [-23.430019661635555, -51.923983990476415],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_03043c4c85f866f24231bb9af0664380 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a4295c82879f34314da309888b204fb = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_b61fabb20791189110910b14786ba6a2 = $(`<div id="html_b61fabb20791189110910b14786ba6a2" style="width: 100.0%; height: 100.0%;"><i>City: Maringá</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 245.61 m²</i></div>`)[0];
+                popup_6a4295c82879f34314da309888b204fb.setContent(html_b61fabb20791189110910b14786ba6a2);
+            
+        
+
+        marker_c28dae2fed8d70a8d097264d21faa379.bindPopup(popup_6a4295c82879f34314da309888b204fb)
+        ;
+
+        
+    
+    
+                marker_c28dae2fed8d70a8d097264d21faa379.setIcon(icon_03043c4c85f866f24231bb9af0664380);
+            
+    
+            var marker_73c89f82e54a065785513758c65a058c = L.marker(
+                [-23.603600747787674, -46.66528757510475],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_2601abd73ea64083f05236a831143e4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_330d417b46d4413d1b68fb9cf9f1cdf7 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_fb29e99254276d953c7be514cfbcd3da = $(`<div id="html_fb29e99254276d953c7be514cfbcd3da" style="width: 100.0%; height: 100.0%;"><i>City: São Paulo</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 55.28 m²</i></div>`)[0];
+                popup_330d417b46d4413d1b68fb9cf9f1cdf7.setContent(html_fb29e99254276d953c7be514cfbcd3da);
+            
+        
+
+        marker_73c89f82e54a065785513758c65a058c.bindPopup(popup_330d417b46d4413d1b68fb9cf9f1cdf7)
+        ;
+
+        
+    
+    
+                marker_73c89f82e54a065785513758c65a058c.setIcon(icon_2601abd73ea64083f05236a831143e4e);
+            
+    
+            var marker_29b19ecf969d001e5c36af406b89bbc4 = L.marker(
+                [-23.559595298906583, -46.668724644419775],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_099376e63fdcee1d0250cb9aa6c01c07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f5f8c7204a716584f084c13fae46b6a = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_eef84d7757c7a56ccd66a14ef715a966 = $(`<div id="html_eef84d7757c7a56ccd66a14ef715a966" style="width: 100.0%; height: 100.0%;"><i>City: São Paulo</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 49.25 m²</i></div>`)[0];
+                popup_3f5f8c7204a716584f084c13fae46b6a.setContent(html_eef84d7757c7a56ccd66a14ef715a966);
+            
+        
+
+        marker_29b19ecf969d001e5c36af406b89bbc4.bindPopup(popup_3f5f8c7204a716584f084c13fae46b6a)
+        ;
+
+        
+    
+    
+                marker_29b19ecf969d001e5c36af406b89bbc4.setIcon(icon_099376e63fdcee1d0250cb9aa6c01c07);
+            
+    
+            var marker_9152b479bf690109674d07b1ac07e99c = L.marker(
+                [-23.559595298906583, -46.668724644419775],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_0781819b373040758d49d738ad1222c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0f031c9c93b92e925def0862498da64 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_6af2951484fd6292549fc6a311989c09 = $(`<div id="html_6af2951484fd6292549fc6a311989c09" style="width: 100.0%; height: 100.0%;"><i>City: São Paulo</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 110.41 m²</i></div>`)[0];
+                popup_e0f031c9c93b92e925def0862498da64.setContent(html_6af2951484fd6292549fc6a311989c09);
+            
+        
+
+        marker_9152b479bf690109674d07b1ac07e99c.bindPopup(popup_e0f031c9c93b92e925def0862498da64)
+        ;
+
+        
+    
+    
+                marker_9152b479bf690109674d07b1ac07e99c.setIcon(icon_0781819b373040758d49d738ad1222c3);
+            
+    
+            var marker_f3a64f65b00a01829fd98c8570d4cfa7 = L.marker(
+                [-23.587802289666694, -46.59357338288676],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_003053c9238908d7bb480e231e7e72f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57da3f970b1c9216a470881db608f070 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_c7d7370745e8bc664f87a64193c87d5b = $(`<div id="html_c7d7370745e8bc664f87a64193c87d5b" style="width: 100.0%; height: 100.0%;"><i>City: São Paulo</i><br><i>Project Type: Reinforced Concrete Structure, Concreto Protendido</i><br><i>Footage: 269.76 m²</i></div>`)[0];
+                popup_57da3f970b1c9216a470881db608f070.setContent(html_c7d7370745e8bc664f87a64193c87d5b);
+            
+        
+
+        marker_f3a64f65b00a01829fd98c8570d4cfa7.bindPopup(popup_57da3f970b1c9216a470881db608f070)
+        ;
+
+        
+    
+    
+                marker_f3a64f65b00a01829fd98c8570d4cfa7.setIcon(icon_003053c9238908d7bb480e231e7e72f9);
+            
+    
+            var marker_a35da14edc0e9d45d5e7eb5f89b500dc = L.marker(
+                [-23.587802289666694, -46.59357338288676],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_0f12f842bd2bd63eb8fc1905134058ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82dcf0c2c2060d889ff8759dfa41010d = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_58071452e372b763fe148b65242c74e0 = $(`<div id="html_58071452e372b763fe148b65242c74e0" style="width: 100.0%; height: 100.0%;"><i>City: São Paulo</i><br><i>Project Type: Reinforced Concrete Structure</i><br><i>Footage: 506.6 m²</i></div>`)[0];
+                popup_82dcf0c2c2060d889ff8759dfa41010d.setContent(html_58071452e372b763fe148b65242c74e0);
+            
+        
+
+        marker_a35da14edc0e9d45d5e7eb5f89b500dc.bindPopup(popup_82dcf0c2c2060d889ff8759dfa41010d)
+        ;
+
+        
+    
+    
+                marker_a35da14edc0e9d45d5e7eb5f89b500dc.setIcon(icon_0f12f842bd2bd63eb8fc1905134058ce);
+            
+    
+            var marker_308f7ae47ffc62cd64687019ea111e10 = L.marker(
+                [-23.312876455565068, -51.3638742669321],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_5a9da92fd16a1262255cfc907208cf4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5dc839abce600e61b777c8d74c6e9d2f = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_60c24907949a0bb293817f66c7f7f642 = $(`<div id="html_60c24907949a0bb293817f66c7f7f642" style="width: 100.0%; height: 100.0%;"><i>City: Rolândia</i><br><i>Project Type: Foundations, Reinforced Concrete Structure</i><br><i>Footage: 46.9 m²</i></div>`)[0];
+                popup_5dc839abce600e61b777c8d74c6e9d2f.setContent(html_60c24907949a0bb293817f66c7f7f642);
+            
+        
+
+        marker_308f7ae47ffc62cd64687019ea111e10.bindPopup(popup_5dc839abce600e61b777c8d74c6e9d2f)
+        ;
+
+        
+    
+    
+                marker_308f7ae47ffc62cd64687019ea111e10.setIcon(icon_5a9da92fd16a1262255cfc907208cf4d);
+            
+    
+            var marker_8b3e847f824dc3423adc57dd7f0d2308 = L.marker(
+                [-23.368579088309158, -51.22777608069485],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_29cbd2c44b345476e411f1ce5a37011c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47a1e3ec8d98dda83432fa1db130f8ae = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_593bcc0cbf2b284e2d71d09d08cdf7bb = $(`<div id="html_593bcc0cbf2b284e2d71d09d08cdf7bb" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Foundations, Reinforced Concrete Structure, Steel Structure</i><br><i>Footage: 3526.42 m²</i></div>`)[0];
+                popup_47a1e3ec8d98dda83432fa1db130f8ae.setContent(html_593bcc0cbf2b284e2d71d09d08cdf7bb);
+            
+        
+
+        marker_8b3e847f824dc3423adc57dd7f0d2308.bindPopup(popup_47a1e3ec8d98dda83432fa1db130f8ae)
+        ;
+
+        
+    
+    
+                marker_8b3e847f824dc3423adc57dd7f0d2308.setIcon(icon_29cbd2c44b345476e411f1ce5a37011c);
+            
+    
+            var marker_8f71e7025fcf201720c45077eec8ec09 = L.marker(
+                [-20.434826637082352, -54.57907652310775],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_0978fe648990a8241db64839c13061f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f899a847f6e9091b5e8a72c5474f6f88 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_c8fe82522c6b90a3119b83b1159aa11a = $(`<div id="html_c8fe82522c6b90a3119b83b1159aa11a" style="width: 100.0%; height: 100.0%;"><i>City: Campo Grande</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 901.35 m²</i></div>`)[0];
+                popup_f899a847f6e9091b5e8a72c5474f6f88.setContent(html_c8fe82522c6b90a3119b83b1159aa11a);
+            
+        
+
+        marker_8f71e7025fcf201720c45077eec8ec09.bindPopup(popup_f899a847f6e9091b5e8a72c5474f6f88)
+        ;
+
+        
+    
+    
+                marker_8f71e7025fcf201720c45077eec8ec09.setIcon(icon_0978fe648990a8241db64839c13061f9);
+            
+    
+            var marker_c527a4166fb17f5785a3d291617e1536 = L.marker(
+                [-20.466516897591806, -54.57729991750792],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_4bc008338f0780847308aa9b3dc0ab69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9766199177f3670cd8620e020ee761b0 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_a3fa41c49b44004cce1b0f2532ea69f8 = $(`<div id="html_a3fa41c49b44004cce1b0f2532ea69f8" style="width: 100.0%; height: 100.0%;"><i>City: Campo Grande</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 2134.44 m²</i></div>`)[0];
+                popup_9766199177f3670cd8620e020ee761b0.setContent(html_a3fa41c49b44004cce1b0f2532ea69f8);
+            
+        
+
+        marker_c527a4166fb17f5785a3d291617e1536.bindPopup(popup_9766199177f3670cd8620e020ee761b0)
+        ;
+
+        
+    
+    
+                marker_c527a4166fb17f5785a3d291617e1536.setIcon(icon_4bc008338f0780847308aa9b3dc0ab69);
+            
+    
+            var marker_2fa71e4ba8514c34493ecf37a2e1a0bf = L.marker(
+                [-23.35036507961597, -51.18068960689156],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_f3c87bf32febbfe41fc24b788eda20d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4b5a1937d30cc9f38572165a116d4ef = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_6438910f0b5d6807161d3a852fe7da46 = $(`<div id="html_6438910f0b5d6807161d3a852fe7da46" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 1134.74 m²</i></div>`)[0];
+                popup_c4b5a1937d30cc9f38572165a116d4ef.setContent(html_6438910f0b5d6807161d3a852fe7da46);
+            
+        
+
+        marker_2fa71e4ba8514c34493ecf37a2e1a0bf.bindPopup(popup_c4b5a1937d30cc9f38572165a116d4ef)
+        ;
+
+        
+    
+    
+                marker_2fa71e4ba8514c34493ecf37a2e1a0bf.setIcon(icon_f3c87bf32febbfe41fc24b788eda20d5);
+            
+    
+            var marker_7a3055f70eee346f129abcd5a2997728 = L.marker(
+                [-23.332975462617895, -51.18147173026331],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_90aa1ceaf38c93a26144a6fe9e7ba427 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_830dd5933b70d33f6aafbff80b4e0066 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_e41f91c22180039b047d046461c5f3d8 = $(`<div id="html_e41f91c22180039b047d046461c5f3d8" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 286.18 m²</i></div>`)[0];
+                popup_830dd5933b70d33f6aafbff80b4e0066.setContent(html_e41f91c22180039b047d046461c5f3d8);
+            
+        
+
+        marker_7a3055f70eee346f129abcd5a2997728.bindPopup(popup_830dd5933b70d33f6aafbff80b4e0066)
+        ;
+
+        
+    
+    
+                marker_7a3055f70eee346f129abcd5a2997728.setIcon(icon_90aa1ceaf38c93a26144a6fe9e7ba427);
+            
+    
+            var marker_8224b6b140e9b5b157dfd07b920e4a35 = L.marker(
+                [-23.30744425885552, -51.17323763350182],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_05003733a092fdd7fba8724c4ab909c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06d6ddbd33a8ccbc9dea144a868c6c70 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_8f676633e7e9f417b879793dca94fc88 = $(`<div id="html_8f676633e7e9f417b879793dca94fc88" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 22.42 m²</i></div>`)[0];
+                popup_06d6ddbd33a8ccbc9dea144a868c6c70.setContent(html_8f676633e7e9f417b879793dca94fc88);
+            
+        
+
+        marker_8224b6b140e9b5b157dfd07b920e4a35.bindPopup(popup_06d6ddbd33a8ccbc9dea144a868c6c70)
+        ;
+
+        
+    
+    
+                marker_8224b6b140e9b5b157dfd07b920e4a35.setIcon(icon_05003733a092fdd7fba8724c4ab909c0);
+            
+    
+            var marker_e03955c4ef43fbbb2491301d48b7ba84 = L.marker(
+                [-23.339982460124283, -51.155928520546865],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_02d15f38264b900046133bfdda4338e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba883e7bedc90444dcc731683c7fe025 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_e54269cd25abc4c805c049169cd20e1a = $(`<div id="html_e54269cd25abc4c805c049169cd20e1a" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 25 m²</i></div>`)[0];
+                popup_ba883e7bedc90444dcc731683c7fe025.setContent(html_e54269cd25abc4c805c049169cd20e1a);
+            
+        
+
+        marker_e03955c4ef43fbbb2491301d48b7ba84.bindPopup(popup_ba883e7bedc90444dcc731683c7fe025)
+        ;
+
+        
+    
+    
+                marker_e03955c4ef43fbbb2491301d48b7ba84.setIcon(icon_02d15f38264b900046133bfdda4338e7);
+            
+    
+            var marker_e550f8d318de0069975efd4656a37e92 = L.marker(
+                [-23.341048859439663, -51.15485818311887],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_2103892c74f3ecd6ea7f51841a62f8c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45aa92d12e7f915e3f8128b0c98287ce = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_660346038a134cc0f311e16c6e5ae9f8 = $(`<div id="html_660346038a134cc0f311e16c6e5ae9f8" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 41.01 m²</i></div>`)[0];
+                popup_45aa92d12e7f915e3f8128b0c98287ce.setContent(html_660346038a134cc0f311e16c6e5ae9f8);
+            
+        
+
+        marker_e550f8d318de0069975efd4656a37e92.bindPopup(popup_45aa92d12e7f915e3f8128b0c98287ce)
+        ;
+
+        
+    
+    
+                marker_e550f8d318de0069975efd4656a37e92.setIcon(icon_2103892c74f3ecd6ea7f51841a62f8c4);
+            
+    
+            var marker_92bb5642fa266d3714d999b898e873d4 = L.marker(
+                [-23.34111555813686, -51.15427485174948],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_6623313c7850ffe9528f749631c58381 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31d7731fe383e15e6a8708a8b4598378 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_faa69d3875940511e60b2123cd52bce2 = $(`<div id="html_faa69d3875940511e60b2123cd52bce2" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 38.76 m²</i></div>`)[0];
+                popup_31d7731fe383e15e6a8708a8b4598378.setContent(html_faa69d3875940511e60b2123cd52bce2);
+            
+        
+
+        marker_92bb5642fa266d3714d999b898e873d4.bindPopup(popup_31d7731fe383e15e6a8708a8b4598378)
+        ;
+
+        
+    
+    
+                marker_92bb5642fa266d3714d999b898e873d4.setIcon(icon_6623313c7850ffe9528f749631c58381);
+            
+    
+            var marker_14bdfdf3f1a9fe7ac4b9686da4573aac = L.marker(
+                [-23.340727209583626, -51.15532872505203],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_c3c78dfe9a63b7c6933e97b7dd864c7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bcd94ba316b3fab5bb57ad01c43330d7 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_ddb64e1c069e9fb0c8bb04ee56df45f2 = $(`<div id="html_ddb64e1c069e9fb0c8bb04ee56df45f2" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 330.57 m²</i></div>`)[0];
+                popup_bcd94ba316b3fab5bb57ad01c43330d7.setContent(html_ddb64e1c069e9fb0c8bb04ee56df45f2);
+            
+        
+
+        marker_14bdfdf3f1a9fe7ac4b9686da4573aac.bindPopup(popup_bcd94ba316b3fab5bb57ad01c43330d7)
+        ;
+
+        
+    
+    
+                marker_14bdfdf3f1a9fe7ac4b9686da4573aac.setIcon(icon_c3c78dfe9a63b7c6933e97b7dd864c7f);
+            
+    
+            var marker_56a0e3ea8342008ca376a13499d2121a = L.marker(
+                [-23.340517960904236, -51.15697145003137],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_2925c0aa7f3768b9bb97cdbe1918fc92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ad08e871c8fdbdd65cf09c636c2bbd8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_6f3b5cb0898e6969c47e15f6760e5e28 = $(`<div id="html_6f3b5cb0898e6969c47e15f6760e5e28" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 12.18 m²</i></div>`)[0];
+                popup_1ad08e871c8fdbdd65cf09c636c2bbd8.setContent(html_6f3b5cb0898e6969c47e15f6760e5e28);
+            
+        
+
+        marker_56a0e3ea8342008ca376a13499d2121a.bindPopup(popup_1ad08e871c8fdbdd65cf09c636c2bbd8)
+        ;
+
+        
+    
+    
+                marker_56a0e3ea8342008ca376a13499d2121a.setIcon(icon_2925c0aa7f3768b9bb97cdbe1918fc92);
+            
+    
+            var marker_47e208ead25f5f6e147d316660508993 = L.marker(
+                [-23.34033694854311, -51.156602637954784],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_f1b4f2d66993781b8db5b761810dea0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10324f75130abfaa24acfd52ad06cb2b = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_e303463152c664fca04d902985544b85 = $(`<div id="html_e303463152c664fca04d902985544b85" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 4.52 m²</i></div>`)[0];
+                popup_10324f75130abfaa24acfd52ad06cb2b.setContent(html_e303463152c664fca04d902985544b85);
+            
+        
+
+        marker_47e208ead25f5f6e147d316660508993.bindPopup(popup_10324f75130abfaa24acfd52ad06cb2b)
+        ;
+
+        
+    
+    
+                marker_47e208ead25f5f6e147d316660508993.setIcon(icon_f1b4f2d66993781b8db5b761810dea0a);
+            
+    
+            var marker_64a4b03b3ee916fd9fb081c33cca681e = L.marker(
+                [-23.340525248372188, -51.15618886977525],
+                {
+}
+            ).addTo(map_b6383569e1e83205df8a666cfd80c360);
+        
+    
+            var icon_f0d3a9cb6fa3cf09588cb9f0c8461caa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_441bb9828c5394c0660377596d5b7744 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_193711f2ee4998878227799df82aba7c = $(`<div id="html_193711f2ee4998878227799df82aba7c" style="width: 100.0%; height: 100.0%;"><i>City: Londrina</i><br><i>Project Type: Steel Structure</i><br><i>Footage: 63.15 m²</i></div>`)[0];
+                popup_441bb9828c5394c0660377596d5b7744.setContent(html_193711f2ee4998878227799df82aba7c);
+            
+        
+
+        marker_64a4b03b3ee916fd9fb081c33cca681e.bindPopup(popup_441bb9828c5394c0660377596d5b7744)
+        ;
+
+        
+    
+    
+                marker_64a4b03b3ee916fd9fb081c33cca681e.setIcon(icon_f0d3a9cb6fa3cf09588cb9f0c8461caa);
+            
+</script>
+</html>

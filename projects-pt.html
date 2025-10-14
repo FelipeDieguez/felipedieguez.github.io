@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a9f7b2f1657bd408daf21b0d673c2d74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a9f7b2f1657bd408daf21b0d673c2d74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a9f7b2f1657bd408daf21b0d673c2d74 = L.map(
+                "map_a9f7b2f1657bd408daf21b0d673c2d74",
+                {
+                    center: [-15.857114225923164, -47.87313174137835],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef5ade06b126fc2a0f1fa6ad6829aea3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ef5ade06b126fc2a0f1fa6ad6829aea3.addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var marker_6bbc8cc45e3664e7e644aaf515b19daf = L.marker(
+                [-31.387570739277358, -54.11268174363579],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_2bfccecfe06ecc623daef73693140128 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5de0c03865647dc2b8808faf62627c56 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_010cefa87f28092b5e34257f8700a3c7 = $(`<div id="html_010cefa87f28092b5e34257f8700a3c7" style="width: 100.0%; height: 100.0%;"><i>Cidade: Bagé</i><br><i>Tipo de Projeto: Fundações, Alvenaria Estrutural, Estrutura Metálica</i><br><i>Metragem: 81.6 m²</i></div>`)[0];
+                popup_5de0c03865647dc2b8808faf62627c56.setContent(html_010cefa87f28092b5e34257f8700a3c7);
+            
+        
+
+        marker_6bbc8cc45e3664e7e644aaf515b19daf.bindPopup(popup_5de0c03865647dc2b8808faf62627c56)
+        ;
+
+        
+    
+    
+                marker_6bbc8cc45e3664e7e644aaf515b19daf.setIcon(icon_2bfccecfe06ecc623daef73693140128);
+            
+    
+            var marker_4f8ed687dbe525c1836575d2fd6d315b = L.marker(
+                [-16.62954336128999, -49.21402995197188],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_87fde3acd76d832f8cb0efc5f357879f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97022214ad0c0e101ff08aab31a34203 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_ddc0994853bb23b2ea2497927fe0ea38 = $(`<div id="html_ddc0994853bb23b2ea2497927fe0ea38" style="width: 100.0%; height: 100.0%;"><i>Cidade: Goiânia</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 29.43 m²</i></div>`)[0];
+                popup_97022214ad0c0e101ff08aab31a34203.setContent(html_ddc0994853bb23b2ea2497927fe0ea38);
+            
+        
+
+        marker_4f8ed687dbe525c1836575d2fd6d315b.bindPopup(popup_97022214ad0c0e101ff08aab31a34203)
+        ;
+
+        
+    
+    
+                marker_4f8ed687dbe525c1836575d2fd6d315b.setIcon(icon_87fde3acd76d832f8cb0efc5f357879f);
+            
+    
+            var marker_6ed448c4a4a4082defd61c63abb61d00 = L.marker(
+                [-5.531518316961253, -47.455419544705954],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_656b577df404a612a803b7c842373f6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16e89e25bd63118b2e1b55fd587742c7 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_1f4699f66f8be703eba2fb7677487380 = $(`<div id="html_1f4699f66f8be703eba2fb7677487380" style="width: 100.0%; height: 100.0%;"><i>Cidade: Imperatriz</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 5466.18 m²</i></div>`)[0];
+                popup_16e89e25bd63118b2e1b55fd587742c7.setContent(html_1f4699f66f8be703eba2fb7677487380);
+            
+        
+
+        marker_6ed448c4a4a4082defd61c63abb61d00.bindPopup(popup_16e89e25bd63118b2e1b55fd587742c7)
+        ;
+
+        
+    
+    
+                marker_6ed448c4a4a4082defd61c63abb61d00.setIcon(icon_656b577df404a612a803b7c842373f6b);
+            
+    
+            var marker_a1580e38460a04ebcc1c62c736e8435f = L.marker(
+                [-26.225232561419883, -48.801735623454746],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_0085e2b02425c33d4d358f450733416a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91de21858dfa8a4bb3caea29cb8d6b68 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_5204e10fc77c83ad0490e0f4476307dc = $(`<div id="html_5204e10fc77c83ad0490e0f4476307dc" style="width: 100.0%; height: 100.0%;"><i>Cidade: Joinville</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 4333.73 m²</i></div>`)[0];
+                popup_91de21858dfa8a4bb3caea29cb8d6b68.setContent(html_5204e10fc77c83ad0490e0f4476307dc);
+            
+        
+
+        marker_a1580e38460a04ebcc1c62c736e8435f.bindPopup(popup_91de21858dfa8a4bb3caea29cb8d6b68)
+        ;
+
+        
+    
+    
+                marker_a1580e38460a04ebcc1c62c736e8435f.setIcon(icon_0085e2b02425c33d4d358f450733416a);
+            
+    
+            var marker_dfb289fd409debef87b2c055093a61c5 = L.marker(
+                [-23.328334736829106, -51.13715707326139],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_9d8bf33c3fe7beaa28fce124ff16a3a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6651663066806e94a09fc01c7e87ef8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_b001aae2b6dea36afcc54fb5c184e945 = $(`<div id="html_b001aae2b6dea36afcc54fb5c184e945" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 3619.13 m²</i></div>`)[0];
+                popup_c6651663066806e94a09fc01c7e87ef8.setContent(html_b001aae2b6dea36afcc54fb5c184e945);
+            
+        
+
+        marker_dfb289fd409debef87b2c055093a61c5.bindPopup(popup_c6651663066806e94a09fc01c7e87ef8)
+        ;
+
+        
+    
+    
+                marker_dfb289fd409debef87b2c055093a61c5.setIcon(icon_9d8bf33c3fe7beaa28fce124ff16a3a7);
+            
+    
+            var marker_c039f3a1bf7402c0e3ea9ccdcef769d4 = L.marker(
+                [-10.295479836305995, -48.35762014235678],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_726cf4b4223237e89fefbca03c9045e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_932fce65a7a6a6b3e54e19a13e04277e = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_0571e366d71240e5575ec16106dc9c96 = $(`<div id="html_0571e366d71240e5575ec16106dc9c96" style="width: 100.0%; height: 100.0%;"><i>Cidade: Palmas</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 240.68 m²</i></div>`)[0];
+                popup_932fce65a7a6a6b3e54e19a13e04277e.setContent(html_0571e366d71240e5575ec16106dc9c96);
+            
+        
+
+        marker_c039f3a1bf7402c0e3ea9ccdcef769d4.bindPopup(popup_932fce65a7a6a6b3e54e19a13e04277e)
+        ;
+
+        
+    
+    
+                marker_c039f3a1bf7402c0e3ea9ccdcef769d4.setIcon(icon_726cf4b4223237e89fefbca03c9045e2);
+            
+    
+            var marker_e3443e06221123bc20ce0f5a43d882ad = L.marker(
+                [-31.715640140835585, -52.33071552588862],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_e01e1f62526539982b4412f429c4052d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93f1f5f82fd011366e15064e0930e623 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_9e99bd3d17653bc36daffde1d7867457 = $(`<div id="html_9e99bd3d17653bc36daffde1d7867457" style="width: 100.0%; height: 100.0%;"><i>Cidade: Pelotas</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 2107.19 m²</i></div>`)[0];
+                popup_93f1f5f82fd011366e15064e0930e623.setContent(html_9e99bd3d17653bc36daffde1d7867457);
+            
+        
+
+        marker_e3443e06221123bc20ce0f5a43d882ad.bindPopup(popup_93f1f5f82fd011366e15064e0930e623)
+        ;
+
+        
+    
+    
+                marker_e3443e06221123bc20ce0f5a43d882ad.setIcon(icon_e01e1f62526539982b4412f429c4052d);
+            
+    
+            var marker_b136869fa6b9becc032decaed7d65984 = L.marker(
+                [-9.366447718028487, -40.56512221168284],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_f44ca33207d6ebc054c3961345bba707 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ee07f7905369aaaef2e0b08838d2fd8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_8e7dc64e36c8f20784d31385803b636d = $(`<div id="html_8e7dc64e36c8f20784d31385803b636d" style="width: 100.0%; height: 100.0%;"><i>Cidade: Petrolina</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 4077.5 m²</i></div>`)[0];
+                popup_9ee07f7905369aaaef2e0b08838d2fd8.setContent(html_8e7dc64e36c8f20784d31385803b636d);
+            
+        
+
+        marker_b136869fa6b9becc032decaed7d65984.bindPopup(popup_9ee07f7905369aaaef2e0b08838d2fd8)
+        ;
+
+        
+    
+    
+                marker_b136869fa6b9becc032decaed7d65984.setIcon(icon_f44ca33207d6ebc054c3961345bba707);
+            
+    
+            var marker_b9ebfcb5fd70798f2eaa87e6bc2107e4 = L.marker(
+                [-2.586523911636214, -44.236203231089185],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_5e95cffd6659521885f435d5be4dafe5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c37500dec8dd60181958eae677c2ea4 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_c9b0fb3b961220db96c2e1894d4d882e = $(`<div id="html_c9b0fb3b961220db96c2e1894d4d882e" style="width: 100.0%; height: 100.0%;"><i>Cidade: São Luís</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 2548.75 m²</i></div>`)[0];
+                popup_5c37500dec8dd60181958eae677c2ea4.setContent(html_c9b0fb3b961220db96c2e1894d4d882e);
+            
+        
+
+        marker_b9ebfcb5fd70798f2eaa87e6bc2107e4.bindPopup(popup_5c37500dec8dd60181958eae677c2ea4)
+        ;
+
+        
+    
+    
+                marker_b9ebfcb5fd70798f2eaa87e6bc2107e4.setIcon(icon_5e95cffd6659521885f435d5be4dafe5);
+            
+    
+            var marker_61bbc25f51460cd7350859604a1e06bf = L.marker(
+                [-29.783874124050595, -57.03594736644616],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_ba6db25ae248192682faa05cefe5a0c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a478075ea5329c361322707258ee6d5f = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_e16208d8f07f0f0eb99c82bc993e008c = $(`<div id="html_e16208d8f07f0f0eb99c82bc993e008c" style="width: 100.0%; height: 100.0%;"><i>Cidade: Uruguaiana</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 1295.82 m²</i></div>`)[0];
+                popup_a478075ea5329c361322707258ee6d5f.setContent(html_e16208d8f07f0f0eb99c82bc993e008c);
+            
+        
+
+        marker_61bbc25f51460cd7350859604a1e06bf.bindPopup(popup_a478075ea5329c361322707258ee6d5f)
+        ;
+
+        
+    
+    
+                marker_61bbc25f51460cd7350859604a1e06bf.setIcon(icon_ba6db25ae248192682faa05cefe5a0c9);
+            
+    
+            var marker_186c2d11fbfa93395d29de3d92ab12f8 = L.marker(
+                [-27.22726083511816, -52.671252619184926],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_03cc59368c85e85f2c61ed75bc767f42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_64142a2da74c7d5cb041dfc0ce61ad91 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_97c2741097687d0b03a4a3182c7e4edc = $(`<div id="html_97c2741097687d0b03a4a3182c7e4edc" style="width: 100.0%; height: 100.0%;"><i>Cidade: Chapecó</i><br><i>Tipo de Projeto: Fundações, Concreto Armado</i><br><i>Metragem: 115.41 m²</i></div>`)[0];
+                popup_64142a2da74c7d5cb041dfc0ce61ad91.setContent(html_97c2741097687d0b03a4a3182c7e4edc);
+            
+        
+
+        marker_186c2d11fbfa93395d29de3d92ab12f8.bindPopup(popup_64142a2da74c7d5cb041dfc0ce61ad91)
+        ;
+
+        
+    
+    
+                marker_186c2d11fbfa93395d29de3d92ab12f8.setIcon(icon_03cc59368c85e85f2c61ed75bc767f42);
+            
+    
+            var marker_bdefb478fea7f6cc85fe7cee840706ae = L.marker(
+                [-23.455579790355998, -51.42902340972505],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_a115cf44737e8cf869d6c53d293bc906 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa8b0d1ddc72b34e673fb522d6aed861 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_05ba2a67034dde404b68117d7925c29c = $(`<div id="html_05ba2a67034dde404b68117d7925c29c" style="width: 100.0%; height: 100.0%;"><i>Cidade: Arapongas</i><br><i>Tipo de Projeto: Fundações, Concreto Armado</i><br><i>Metragem: 188.94 m²</i></div>`)[0];
+                popup_aa8b0d1ddc72b34e673fb522d6aed861.setContent(html_05ba2a67034dde404b68117d7925c29c);
+            
+        
+
+        marker_bdefb478fea7f6cc85fe7cee840706ae.bindPopup(popup_aa8b0d1ddc72b34e673fb522d6aed861)
+        ;
+
+        
+    
+    
+                marker_bdefb478fea7f6cc85fe7cee840706ae.setIcon(icon_a115cf44737e8cf869d6c53d293bc906);
+            
+    
+            var marker_97aa52891d5c743a88b3dceec0c3cfb0 = L.marker(
+                [-23.262281185086998, -51.203960683145205],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_9b0ce989fd100f3c7ff854fafe4d540c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b37af15f89216e9b4f8ccc7fc613e51 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_b8d35f9a5337a8046a5c498dc2136b40 = $(`<div id="html_b8d35f9a5337a8046a5c498dc2136b40" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Alvenaria Estrutural</i><br><i>Metragem: 967.8 m²</i></div>`)[0];
+                popup_2b37af15f89216e9b4f8ccc7fc613e51.setContent(html_b8d35f9a5337a8046a5c498dc2136b40);
+            
+        
+
+        marker_97aa52891d5c743a88b3dceec0c3cfb0.bindPopup(popup_2b37af15f89216e9b4f8ccc7fc613e51)
+        ;
+
+        
+    
+    
+                marker_97aa52891d5c743a88b3dceec0c3cfb0.setIcon(icon_9b0ce989fd100f3c7ff854fafe4d540c);
+            
+    
+            var marker_236a6f01e67186ac1031c6054fc4fceb = L.marker(
+                [-25.445274926487308, -49.26752460423677],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_39088443a40e0f9f07d5a14fa0ce1906 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1f0ce76bda81cb556557d0081fd4008 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_5d928f01f8afef6526918d906500406a = $(`<div id="html_5d928f01f8afef6526918d906500406a" style="width: 100.0%; height: 100.0%;"><i>Cidade: Curitiba</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 296.62 m²</i></div>`)[0];
+                popup_e1f0ce76bda81cb556557d0081fd4008.setContent(html_5d928f01f8afef6526918d906500406a);
+            
+        
+
+        marker_236a6f01e67186ac1031c6054fc4fceb.bindPopup(popup_e1f0ce76bda81cb556557d0081fd4008)
+        ;
+
+        
+    
+    
+                marker_236a6f01e67186ac1031c6054fc4fceb.setIcon(icon_39088443a40e0f9f07d5a14fa0ce1906);
+            
+    
+            var marker_648460eb66a9ed611b9f24d3e6f48732 = L.marker(
+                [-25.445274926487308, -49.26752460423677],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_720f2010e838728a69d3c4af9eebdbe2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e67f598a858de1f9d00b5d2b58d7e63e = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_c7a3bc11a020c93209910e9c5d6c954a = $(`<div id="html_c7a3bc11a020c93209910e9c5d6c954a" style="width: 100.0%; height: 100.0%;"><i>Cidade: Curitiba</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 146.55 m²</i></div>`)[0];
+                popup_e67f598a858de1f9d00b5d2b58d7e63e.setContent(html_c7a3bc11a020c93209910e9c5d6c954a);
+            
+        
+
+        marker_648460eb66a9ed611b9f24d3e6f48732.bindPopup(popup_e67f598a858de1f9d00b5d2b58d7e63e)
+        ;
+
+        
+    
+    
+                marker_648460eb66a9ed611b9f24d3e6f48732.setIcon(icon_720f2010e838728a69d3c4af9eebdbe2);
+            
+    
+            var marker_463f7db4d0d0f1ce7a083f09bc054778 = L.marker(
+                [-22.695741464558004, -43.627394707451984],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_45abf50474f14f5a942f6d64c08c915b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8e9f7400caa443c42ea5fd6374eeaeb = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_d1efb21f453c639a72df0a6f3392a3ab = $(`<div id="html_d1efb21f453c639a72df0a6f3392a3ab" style="width: 100.0%; height: 100.0%;"><i>Cidade: Japeri</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 160.85 m²</i></div>`)[0];
+                popup_f8e9f7400caa443c42ea5fd6374eeaeb.setContent(html_d1efb21f453c639a72df0a6f3392a3ab);
+            
+        
+
+        marker_463f7db4d0d0f1ce7a083f09bc054778.bindPopup(popup_f8e9f7400caa443c42ea5fd6374eeaeb)
+        ;
+
+        
+    
+    
+                marker_463f7db4d0d0f1ce7a083f09bc054778.setIcon(icon_45abf50474f14f5a942f6d64c08c915b);
+            
+    
+            var marker_4df8312900909939e4e556fa93fd7c8f = L.marker(
+                [-21.7844532466422, -43.368058353030804],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_ed8ddcf155627f8763c39e335e07f902 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e8cae89f0a56c2a6a22d0adc7b53563 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_8e142bf343fe84c39e8550eb15ee1c83 = $(`<div id="html_8e142bf343fe84c39e8550eb15ee1c83" style="width: 100.0%; height: 100.0%;"><i>Cidade: Juiz de Fora</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 1318.04 m²</i></div>`)[0];
+                popup_0e8cae89f0a56c2a6a22d0adc7b53563.setContent(html_8e142bf343fe84c39e8550eb15ee1c83);
+            
+        
+
+        marker_4df8312900909939e4e556fa93fd7c8f.bindPopup(popup_0e8cae89f0a56c2a6a22d0adc7b53563)
+        ;
+
+        
+    
+    
+                marker_4df8312900909939e4e556fa93fd7c8f.setIcon(icon_ed8ddcf155627f8763c39e335e07f902);
+            
+    
+            var marker_8c268e563baae43fd9b8d77ecf369cbc = L.marker(
+                [-21.785030446251657, -43.3678456568851],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_f23015f4bc782ad16ecc13e910073c9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f910c5b8c8ce26e718652869d4cba6ba = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_233286c26fc21a2ff763468408923d22 = $(`<div id="html_233286c26fc21a2ff763468408923d22" style="width: 100.0%; height: 100.0%;"><i>Cidade: Juiz de Fora</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 305.8 m²</i></div>`)[0];
+                popup_f910c5b8c8ce26e718652869d4cba6ba.setContent(html_233286c26fc21a2ff763468408923d22);
+            
+        
+
+        marker_8c268e563baae43fd9b8d77ecf369cbc.bindPopup(popup_f910c5b8c8ce26e718652869d4cba6ba)
+        ;
+
+        
+    
+    
+                marker_8c268e563baae43fd9b8d77ecf369cbc.setIcon(icon_f23015f4bc782ad16ecc13e910073c9d);
+            
+    
+            var marker_d21218ab99c320dd1ddd8f90eb55a69c = L.marker(
+                [-21.785717401678642, -43.36892376668692],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_4077d70f6c1ef33214ea48a39e7e4706 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4e1f75db043e89639df0a24d457ff55 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_b4ab38bbb55a91509a50c53a16a8c91b = $(`<div id="html_b4ab38bbb55a91509a50c53a16a8c91b" style="width: 100.0%; height: 100.0%;"><i>Cidade: Juiz de Fora</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 623.28 m²</i></div>`)[0];
+                popup_a4e1f75db043e89639df0a24d457ff55.setContent(html_b4ab38bbb55a91509a50c53a16a8c91b);
+            
+        
+
+        marker_d21218ab99c320dd1ddd8f90eb55a69c.bindPopup(popup_a4e1f75db043e89639df0a24d457ff55)
+        ;
+
+        
+    
+    
+                marker_d21218ab99c320dd1ddd8f90eb55a69c.setIcon(icon_4077d70f6c1ef33214ea48a39e7e4706);
+            
+    
+            var marker_70dac480828beeb8150bea52220ea151 = L.marker(
+                [-26.09740963654876, -49.427695733791595],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_d00fc3251bf2711f505aa0e965e8afdd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21bf56f87e662693aeaa09aa313dd8cc = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_0be29cd5f4c64bc9553e179ff7977ab0 = $(`<div id="html_0be29cd5f4c64bc9553e179ff7977ab0" style="width: 100.0%; height: 100.0%;"><i>Cidade: Piên</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 377.09 m²</i></div>`)[0];
+                popup_21bf56f87e662693aeaa09aa313dd8cc.setContent(html_0be29cd5f4c64bc9553e179ff7977ab0);
+            
+        
+
+        marker_70dac480828beeb8150bea52220ea151.bindPopup(popup_21bf56f87e662693aeaa09aa313dd8cc)
+        ;
+
+        
+    
+    
+                marker_70dac480828beeb8150bea52220ea151.setIcon(icon_d00fc3251bf2711f505aa0e965e8afdd);
+            
+    
+            var marker_16f33f0464a1123616239d5ba25e84e9 = L.marker(
+                [-25.441859193712194, -49.14660535354054],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_8ebecd91d79373a8e1abee4b0cad30ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c719ffc4520a867c2949c07fb5d9383a = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_8ee22245326408ad55a67abfac161755 = $(`<div id="html_8ee22245326408ad55a67abfac161755" style="width: 100.0%; height: 100.0%;"><i>Cidade: Pinhais</i><br><i>Tipo de Projeto: Concreto Armado</i><br><i>Metragem: 1107 m²</i></div>`)[0];
+                popup_c719ffc4520a867c2949c07fb5d9383a.setContent(html_8ee22245326408ad55a67abfac161755);
+            
+        
+
+        marker_16f33f0464a1123616239d5ba25e84e9.bindPopup(popup_c719ffc4520a867c2949c07fb5d9383a)
+        ;
+
+        
+    
+    
+                marker_16f33f0464a1123616239d5ba25e84e9.setIcon(icon_8ebecd91d79373a8e1abee4b0cad30ab);
+            
+    
+            var marker_65a104e8a5d0e7f3d3b871906443c02d = L.marker(
+                [-15.57771816897074, -56.09929971836419],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_0fb767aa6989bdbb8e21fadf76b8cabe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1171b0f96260b4d10c62962d2b4b89f2 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_a1bd89d59139dc2f8add3553cb4e84b7 = $(`<div id="html_a1bd89d59139dc2f8add3553cb4e84b7" style="width: 100.0%; height: 100.0%;"><i>Cidade: Cuiabá</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 2438.73 m²</i></div>`)[0];
+                popup_1171b0f96260b4d10c62962d2b4b89f2.setContent(html_a1bd89d59139dc2f8add3553cb4e84b7);
+            
+        
+
+        marker_65a104e8a5d0e7f3d3b871906443c02d.bindPopup(popup_1171b0f96260b4d10c62962d2b4b89f2)
+        ;
+
+        
+    
+    
+                marker_65a104e8a5d0e7f3d3b871906443c02d.setIcon(icon_0fb767aa6989bdbb8e21fadf76b8cabe);
+            
+    
+            var marker_f8b5f48c3ec94f1aa14be0da232b6755 = L.marker(
+                [-20.455780112204646, -54.595548766533824],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_3ebe036c7c234f623bab88dcf623f17d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79d7837c044aef06b3ccb40285e8cd5d = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_4ca6e73ce2bb7c3de4efa7485bcdbcf4 = $(`<div id="html_4ca6e73ce2bb7c3de4efa7485bcdbcf4" style="width: 100.0%; height: 100.0%;"><i>Cidade: Campo Grande</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 11.57 m²</i></div>`)[0];
+                popup_79d7837c044aef06b3ccb40285e8cd5d.setContent(html_4ca6e73ce2bb7c3de4efa7485bcdbcf4);
+            
+        
+
+        marker_f8b5f48c3ec94f1aa14be0da232b6755.bindPopup(popup_79d7837c044aef06b3ccb40285e8cd5d)
+        ;
+
+        
+    
+    
+                marker_f8b5f48c3ec94f1aa14be0da232b6755.setIcon(icon_3ebe036c7c234f623bab88dcf623f17d);
+            
+    
+            var marker_ab80832e7044a9f2dab117523fe8c3cc = L.marker(
+                [-20.465232207718046, -54.571935504250874],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_2b08846ef2efd6185255b870f5a58a55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6eb7ad664a22a6268c6044aea58064f3 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_885d6909fb98a942152cf6c22ab99250 = $(`<div id="html_885d6909fb98a942152cf6c22ab99250" style="width: 100.0%; height: 100.0%;"><i>Cidade: Campo Grande</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 371.37 m²</i></div>`)[0];
+                popup_6eb7ad664a22a6268c6044aea58064f3.setContent(html_885d6909fb98a942152cf6c22ab99250);
+            
+        
+
+        marker_ab80832e7044a9f2dab117523fe8c3cc.bindPopup(popup_6eb7ad664a22a6268c6044aea58064f3)
+        ;
+
+        
+    
+    
+                marker_ab80832e7044a9f2dab117523fe8c3cc.setIcon(icon_2b08846ef2efd6185255b870f5a58a55);
+            
+    
+            var marker_35e89d9d93161c75b6903f269a7704f6 = L.marker(
+                [-20.457806015824534, -54.59972790281995],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_de9ff6bea6a2601efb2f254fdc7cc7d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abd988e5861f8a25238686b58dc237b7 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_772cdd1c752f9db3029930ec3b0eee75 = $(`<div id="html_772cdd1c752f9db3029930ec3b0eee75" style="width: 100.0%; height: 100.0%;"><i>Cidade: Campo Grande</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 19.31 m²</i></div>`)[0];
+                popup_abd988e5861f8a25238686b58dc237b7.setContent(html_772cdd1c752f9db3029930ec3b0eee75);
+            
+        
+
+        marker_35e89d9d93161c75b6903f269a7704f6.bindPopup(popup_abd988e5861f8a25238686b58dc237b7)
+        ;
+
+        
+    
+    
+                marker_35e89d9d93161c75b6903f269a7704f6.setIcon(icon_de9ff6bea6a2601efb2f254fdc7cc7d3);
+            
+    
+            var marker_8c61400abbdbddf70ded0cdddf3292ca = L.marker(
+                [-23.330606795598264, -51.18251977511147],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_8085aa58528d73151d45070b82ecb70d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0753c7ed1b0ff8ea302bf339293b36a = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_0789d53c127fb912d6e8a5166c47632c = $(`<div id="html_0789d53c127fb912d6e8a5166c47632c" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 0.65 m²</i></div>`)[0];
+                popup_f0753c7ed1b0ff8ea302bf339293b36a.setContent(html_0789d53c127fb912d6e8a5166c47632c);
+            
+        
+
+        marker_8c61400abbdbddf70ded0cdddf3292ca.bindPopup(popup_f0753c7ed1b0ff8ea302bf339293b36a)
+        ;
+
+        
+    
+    
+                marker_8c61400abbdbddf70ded0cdddf3292ca.setIcon(icon_8085aa58528d73151d45070b82ecb70d);
+            
+    
+            var marker_c5a4b065ceb437555973f318e0a8ec01 = L.marker(
+                [-23.327053990123137, -51.1823185722471],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_584b50ebb2dc8cdce88f20fd84448843 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ac4ccca13e5a9618003a9aaa965e358 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_6903ec98b1d3e55245f0965ba34a09a7 = $(`<div id="html_6903ec98b1d3e55245f0965ba34a09a7" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 18.45 m²</i></div>`)[0];
+                popup_5ac4ccca13e5a9618003a9aaa965e358.setContent(html_6903ec98b1d3e55245f0965ba34a09a7);
+            
+        
+
+        marker_c5a4b065ceb437555973f318e0a8ec01.bindPopup(popup_5ac4ccca13e5a9618003a9aaa965e358)
+        ;
+
+        
+    
+    
+                marker_c5a4b065ceb437555973f318e0a8ec01.setIcon(icon_584b50ebb2dc8cdce88f20fd84448843);
+            
+    
+            var marker_0e94beecce6e5d7c0d4bbd46864f63e9 = L.marker(
+                [-23.32743256557842, -51.18079392226813],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_bd31696f86051a69e085b8a77259e89e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23691baedd5357220a7d323ac1d40ea0 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_d2aeb88edafbc7cd5065805ed68465c2 = $(`<div id="html_d2aeb88edafbc7cd5065805ed68465c2" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 105.8 m²</i></div>`)[0];
+                popup_23691baedd5357220a7d323ac1d40ea0.setContent(html_d2aeb88edafbc7cd5065805ed68465c2);
+            
+        
+
+        marker_0e94beecce6e5d7c0d4bbd46864f63e9.bindPopup(popup_23691baedd5357220a7d323ac1d40ea0)
+        ;
+
+        
+    
+    
+                marker_0e94beecce6e5d7c0d4bbd46864f63e9.setIcon(icon_bd31696f86051a69e085b8a77259e89e);
+            
+    
+            var marker_0a15c32afd251c2ebe8ce1791919bf36 = L.marker(
+                [-22.695741464558004, -43.627394707451984],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_bfcbf53555336c9b02449816793d55ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb8440f2bad1ff38829d967dc3610ef5 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_3283f89ee205aeb06b7de33dd0dd4119 = $(`<div id="html_3283f89ee205aeb06b7de33dd0dd4119" style="width: 100.0%; height: 100.0%;"><i>Cidade: Japeri</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 14.05 m²</i></div>`)[0];
+                popup_cb8440f2bad1ff38829d967dc3610ef5.setContent(html_3283f89ee205aeb06b7de33dd0dd4119);
+            
+        
+
+        marker_0a15c32afd251c2ebe8ce1791919bf36.bindPopup(popup_cb8440f2bad1ff38829d967dc3610ef5)
+        ;
+
+        
+    
+    
+                marker_0a15c32afd251c2ebe8ce1791919bf36.setIcon(icon_bfcbf53555336c9b02449816793d55ec);
+            
+    
+            var marker_d397a50cafbb66f50144f7a4356c8f81 = L.marker(
+                [-23.423068752765523, -51.92739229045254],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_2344ffe77aaa69ff67a651eb9d3dee3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9c15347fcfe524b41d3f3fb74eaeeca = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_cbb9e2c7aae85ee14511c0e4473627dc = $(`<div id="html_cbb9e2c7aae85ee14511c0e4473627dc" style="width: 100.0%; height: 100.0%;"><i>Cidade: Maringá</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 107.74 m²</i></div>`)[0];
+                popup_a9c15347fcfe524b41d3f3fb74eaeeca.setContent(html_cbb9e2c7aae85ee14511c0e4473627dc);
+            
+        
+
+        marker_d397a50cafbb66f50144f7a4356c8f81.bindPopup(popup_a9c15347fcfe524b41d3f3fb74eaeeca)
+        ;
+
+        
+    
+    
+                marker_d397a50cafbb66f50144f7a4356c8f81.setIcon(icon_2344ffe77aaa69ff67a651eb9d3dee3d);
+            
+    
+            var marker_049e78654283faf6b02b2b6baed89a5b = L.marker(
+                [-23.430019661635555, -51.923983990476415],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_798063ffe07487bc17334df67e5416dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e848da70cadd4fcef4cd1580f44995f3 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_09d12a657ec5dd6a84277ed1a5f380a3 = $(`<div id="html_09d12a657ec5dd6a84277ed1a5f380a3" style="width: 100.0%; height: 100.0%;"><i>Cidade: Maringá</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 245.61 m²</i></div>`)[0];
+                popup_e848da70cadd4fcef4cd1580f44995f3.setContent(html_09d12a657ec5dd6a84277ed1a5f380a3);
+            
+        
+
+        marker_049e78654283faf6b02b2b6baed89a5b.bindPopup(popup_e848da70cadd4fcef4cd1580f44995f3)
+        ;
+
+        
+    
+    
+                marker_049e78654283faf6b02b2b6baed89a5b.setIcon(icon_798063ffe07487bc17334df67e5416dc);
+            
+    
+            var marker_1bb684841ee01831107f79e9e8a17d25 = L.marker(
+                [-23.603600747787674, -46.66528757510475],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_0a49c8689c4ec29fe16c764b250743df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc221e1cc9e09d6f0ad1ac11a93392a6 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_59b6c8829e0cc8d417d8f013dc2d31d5 = $(`<div id="html_59b6c8829e0cc8d417d8f013dc2d31d5" style="width: 100.0%; height: 100.0%;"><i>Cidade: São Paulo</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 55.28 m²</i></div>`)[0];
+                popup_bc221e1cc9e09d6f0ad1ac11a93392a6.setContent(html_59b6c8829e0cc8d417d8f013dc2d31d5);
+            
+        
+
+        marker_1bb684841ee01831107f79e9e8a17d25.bindPopup(popup_bc221e1cc9e09d6f0ad1ac11a93392a6)
+        ;
+
+        
+    
+    
+                marker_1bb684841ee01831107f79e9e8a17d25.setIcon(icon_0a49c8689c4ec29fe16c764b250743df);
+            
+    
+            var marker_cf125fd589eedacd5923c81353dca619 = L.marker(
+                [-23.559595298906583, -46.668724644419775],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_bfb8a069588dada27ffd848d32ac4d2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae72b3eb3e444f5950a7b593349119af = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_d60bff43a50817d0c7963ec73281fcc2 = $(`<div id="html_d60bff43a50817d0c7963ec73281fcc2" style="width: 100.0%; height: 100.0%;"><i>Cidade: São Paulo</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 49.25 m²</i></div>`)[0];
+                popup_ae72b3eb3e444f5950a7b593349119af.setContent(html_d60bff43a50817d0c7963ec73281fcc2);
+            
+        
+
+        marker_cf125fd589eedacd5923c81353dca619.bindPopup(popup_ae72b3eb3e444f5950a7b593349119af)
+        ;
+
+        
+    
+    
+                marker_cf125fd589eedacd5923c81353dca619.setIcon(icon_bfb8a069588dada27ffd848d32ac4d2b);
+            
+    
+            var marker_076b1d48320f18cb5e9695222aad9f93 = L.marker(
+                [-23.559595298906583, -46.668724644419775],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_47192151feda8ab6805d714773b5e727 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d69f0e564a11f8847881fb944d04568 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_06ff1ef7afaf7f5bc940cfdad2e1f1ec = $(`<div id="html_06ff1ef7afaf7f5bc940cfdad2e1f1ec" style="width: 100.0%; height: 100.0%;"><i>Cidade: São Paulo</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 110.41 m²</i></div>`)[0];
+                popup_5d69f0e564a11f8847881fb944d04568.setContent(html_06ff1ef7afaf7f5bc940cfdad2e1f1ec);
+            
+        
+
+        marker_076b1d48320f18cb5e9695222aad9f93.bindPopup(popup_5d69f0e564a11f8847881fb944d04568)
+        ;
+
+        
+    
+    
+                marker_076b1d48320f18cb5e9695222aad9f93.setIcon(icon_47192151feda8ab6805d714773b5e727);
+            
+    
+            var marker_18f12802f97ee751d393378874f7caab = L.marker(
+                [-23.587802289666694, -46.59357338288676],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_0f2fc15cd59cf814251e198a5d4bdc98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e44f19087e76067315cdcc561137491 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_8941f61c808ec56cd2f06801f98a2ad9 = $(`<div id="html_8941f61c808ec56cd2f06801f98a2ad9" style="width: 100.0%; height: 100.0%;"><i>Cidade: São Paulo</i><br><i>Tipo de Projeto: Concreto Armado, Concreto Protendido</i><br><i>Metragem: 269.76 m²</i></div>`)[0];
+                popup_1e44f19087e76067315cdcc561137491.setContent(html_8941f61c808ec56cd2f06801f98a2ad9);
+            
+        
+
+        marker_18f12802f97ee751d393378874f7caab.bindPopup(popup_1e44f19087e76067315cdcc561137491)
+        ;
+
+        
+    
+    
+                marker_18f12802f97ee751d393378874f7caab.setIcon(icon_0f2fc15cd59cf814251e198a5d4bdc98);
+            
+    
+            var marker_95182ae3ebbe3f34c248212335d4d79c = L.marker(
+                [-23.587802289666694, -46.59357338288676],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_07abd570dcfc62be6e2694bbae9a980c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef73db28fc69359dd9dee50b2a1d86e4 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_00a54edeb82813033d87fbe742b879b9 = $(`<div id="html_00a54edeb82813033d87fbe742b879b9" style="width: 100.0%; height: 100.0%;"><i>Cidade: São Paulo</i><br><i>Tipo de Projeto: Concreto Armado</i><br><i>Metragem: 506.6 m²</i></div>`)[0];
+                popup_ef73db28fc69359dd9dee50b2a1d86e4.setContent(html_00a54edeb82813033d87fbe742b879b9);
+            
+        
+
+        marker_95182ae3ebbe3f34c248212335d4d79c.bindPopup(popup_ef73db28fc69359dd9dee50b2a1d86e4)
+        ;
+
+        
+    
+    
+                marker_95182ae3ebbe3f34c248212335d4d79c.setIcon(icon_07abd570dcfc62be6e2694bbae9a980c);
+            
+    
+            var marker_e98b07f1a6fb9d8dea117ef4daae4b1f = L.marker(
+                [-23.312876455565068, -51.3638742669321],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_7165788c367141a980048d47f08bcfc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cf3f91d107fdb0e22120de777fffbbc = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_7a7164a4232355875b999d10d6c78cad = $(`<div id="html_7a7164a4232355875b999d10d6c78cad" style="width: 100.0%; height: 100.0%;"><i>Cidade: Rolândia</i><br><i>Tipo de Projeto: Fundações, Concreto Armado</i><br><i>Metragem: 46.9 m²</i></div>`)[0];
+                popup_7cf3f91d107fdb0e22120de777fffbbc.setContent(html_7a7164a4232355875b999d10d6c78cad);
+            
+        
+
+        marker_e98b07f1a6fb9d8dea117ef4daae4b1f.bindPopup(popup_7cf3f91d107fdb0e22120de777fffbbc)
+        ;
+
+        
+    
+    
+                marker_e98b07f1a6fb9d8dea117ef4daae4b1f.setIcon(icon_7165788c367141a980048d47f08bcfc1);
+            
+    
+            var marker_d7873faf549c30501e1f3f33b197783e = L.marker(
+                [-23.368579088309158, -51.22777608069485],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_9ac493377b78228913aefc6f0e9c4ee0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ffd4d2ca6aa68914cc4a1af8801e1aae = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_32f3442f62a44c4de043a102df6bee02 = $(`<div id="html_32f3442f62a44c4de043a102df6bee02" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Fundações, Concreto Armado, Estrutura Metálica</i><br><i>Metragem: 3526.42 m²</i></div>`)[0];
+                popup_ffd4d2ca6aa68914cc4a1af8801e1aae.setContent(html_32f3442f62a44c4de043a102df6bee02);
+            
+        
+
+        marker_d7873faf549c30501e1f3f33b197783e.bindPopup(popup_ffd4d2ca6aa68914cc4a1af8801e1aae)
+        ;
+
+        
+    
+    
+                marker_d7873faf549c30501e1f3f33b197783e.setIcon(icon_9ac493377b78228913aefc6f0e9c4ee0);
+            
+    
+            var marker_8c5e1fdffba638c655544b829c65eb04 = L.marker(
+                [-20.434826637082352, -54.57907652310775],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_c57bcc8e08b0e186835f0562e0c93fd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6986715963d40584e9af4cd5f42aeb48 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_0e58d29ed45fa37071e0667135db4673 = $(`<div id="html_0e58d29ed45fa37071e0667135db4673" style="width: 100.0%; height: 100.0%;"><i>Cidade: Campo Grande</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 901.35 m²</i></div>`)[0];
+                popup_6986715963d40584e9af4cd5f42aeb48.setContent(html_0e58d29ed45fa37071e0667135db4673);
+            
+        
+
+        marker_8c5e1fdffba638c655544b829c65eb04.bindPopup(popup_6986715963d40584e9af4cd5f42aeb48)
+        ;
+
+        
+    
+    
+                marker_8c5e1fdffba638c655544b829c65eb04.setIcon(icon_c57bcc8e08b0e186835f0562e0c93fd8);
+            
+    
+            var marker_0095f6776832eda3c75a5277563a7d93 = L.marker(
+                [-20.466516897591806, -54.57729991750792],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_7073209f777c691ab9f407af26f38387 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74ee3c1990627270a0d4d36f72a26930 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_ad8193cd828e6e6578a5f076d181c476 = $(`<div id="html_ad8193cd828e6e6578a5f076d181c476" style="width: 100.0%; height: 100.0%;"><i>Cidade: Campo Grande</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 2134.44 m²</i></div>`)[0];
+                popup_74ee3c1990627270a0d4d36f72a26930.setContent(html_ad8193cd828e6e6578a5f076d181c476);
+            
+        
+
+        marker_0095f6776832eda3c75a5277563a7d93.bindPopup(popup_74ee3c1990627270a0d4d36f72a26930)
+        ;
+
+        
+    
+    
+                marker_0095f6776832eda3c75a5277563a7d93.setIcon(icon_7073209f777c691ab9f407af26f38387);
+            
+    
+            var marker_948b7290a6a6aa9411fa4356be3ed92f = L.marker(
+                [-23.35036507961597, -51.18068960689156],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_657a6dfc647194ddee43610965331076 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ce6950a37efe5c2e978f874939a4cd4 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_9b7779bbd8da66d513e0c30da1011a2c = $(`<div id="html_9b7779bbd8da66d513e0c30da1011a2c" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 1134.74 m²</i></div>`)[0];
+                popup_4ce6950a37efe5c2e978f874939a4cd4.setContent(html_9b7779bbd8da66d513e0c30da1011a2c);
+            
+        
+
+        marker_948b7290a6a6aa9411fa4356be3ed92f.bindPopup(popup_4ce6950a37efe5c2e978f874939a4cd4)
+        ;
+
+        
+    
+    
+                marker_948b7290a6a6aa9411fa4356be3ed92f.setIcon(icon_657a6dfc647194ddee43610965331076);
+            
+    
+            var marker_fe4b2ea64a190b64860958a25215ab46 = L.marker(
+                [-23.332975462617895, -51.18147173026331],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_dfa9f4cdff4b1fd0f137c33fd48785dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3181914bf21f8d6ae942617496964fc0 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_b7f22f1b08ff18dc2db9cd11b7f0b21e = $(`<div id="html_b7f22f1b08ff18dc2db9cd11b7f0b21e" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 286.18 m²</i></div>`)[0];
+                popup_3181914bf21f8d6ae942617496964fc0.setContent(html_b7f22f1b08ff18dc2db9cd11b7f0b21e);
+            
+        
+
+        marker_fe4b2ea64a190b64860958a25215ab46.bindPopup(popup_3181914bf21f8d6ae942617496964fc0)
+        ;
+
+        
+    
+    
+                marker_fe4b2ea64a190b64860958a25215ab46.setIcon(icon_dfa9f4cdff4b1fd0f137c33fd48785dd);
+            
+    
+            var marker_25cc9ec4087e0f4c363f8412f597a362 = L.marker(
+                [-23.30744425885552, -51.17323763350182],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_d9b8d9185423a4bc9606fb43d885c336 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b05e06a7b83540c86035d1b6fb0f1733 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_91cb305f234652287bff794deb961a35 = $(`<div id="html_91cb305f234652287bff794deb961a35" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 22.42 m²</i></div>`)[0];
+                popup_b05e06a7b83540c86035d1b6fb0f1733.setContent(html_91cb305f234652287bff794deb961a35);
+            
+        
+
+        marker_25cc9ec4087e0f4c363f8412f597a362.bindPopup(popup_b05e06a7b83540c86035d1b6fb0f1733)
+        ;
+
+        
+    
+    
+                marker_25cc9ec4087e0f4c363f8412f597a362.setIcon(icon_d9b8d9185423a4bc9606fb43d885c336);
+            
+    
+            var marker_21f71b95942000f853fd886f90c369d3 = L.marker(
+                [-23.339982460124283, -51.155928520546865],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_d7d35b8744ca317ab0f2d0c2f2dbf401 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_07c971c459c82b7b196780fbafab1810 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_adae7f3f196e5eb57d801dd0d160ef58 = $(`<div id="html_adae7f3f196e5eb57d801dd0d160ef58" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 25 m²</i></div>`)[0];
+                popup_07c971c459c82b7b196780fbafab1810.setContent(html_adae7f3f196e5eb57d801dd0d160ef58);
+            
+        
+
+        marker_21f71b95942000f853fd886f90c369d3.bindPopup(popup_07c971c459c82b7b196780fbafab1810)
+        ;
+
+        
+    
+    
+                marker_21f71b95942000f853fd886f90c369d3.setIcon(icon_d7d35b8744ca317ab0f2d0c2f2dbf401);
+            
+    
+            var marker_4dec8c4198faea3755244c6b20a42f2e = L.marker(
+                [-23.341048859439663, -51.15485818311887],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_edd4960000df3ba989039ede1729af68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_194e6093a61863c7008c84c32a9d9a46 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_2e77ebf9c53138a1ca825423efabbab0 = $(`<div id="html_2e77ebf9c53138a1ca825423efabbab0" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 41.01 m²</i></div>`)[0];
+                popup_194e6093a61863c7008c84c32a9d9a46.setContent(html_2e77ebf9c53138a1ca825423efabbab0);
+            
+        
+
+        marker_4dec8c4198faea3755244c6b20a42f2e.bindPopup(popup_194e6093a61863c7008c84c32a9d9a46)
+        ;
+
+        
+    
+    
+                marker_4dec8c4198faea3755244c6b20a42f2e.setIcon(icon_edd4960000df3ba989039ede1729af68);
+            
+    
+            var marker_4602db89720e26168675d2eef0282e2f = L.marker(
+                [-23.34111555813686, -51.15427485174948],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_866eb59606742a5f58a709fb498892f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_adda73d3c32b99bf83d493cbd1940fe8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_1798f3a46afc273d045a81579fa53b9c = $(`<div id="html_1798f3a46afc273d045a81579fa53b9c" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 38.76 m²</i></div>`)[0];
+                popup_adda73d3c32b99bf83d493cbd1940fe8.setContent(html_1798f3a46afc273d045a81579fa53b9c);
+            
+        
+
+        marker_4602db89720e26168675d2eef0282e2f.bindPopup(popup_adda73d3c32b99bf83d493cbd1940fe8)
+        ;
+
+        
+    
+    
+                marker_4602db89720e26168675d2eef0282e2f.setIcon(icon_866eb59606742a5f58a709fb498892f0);
+            
+    
+            var marker_f11696d4ad07a7cad9a11fdfe0616956 = L.marker(
+                [-23.340727209583626, -51.15532872505203],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_e5d9feb606bb39c0ef9c8b94569c0066 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4645e7c4bb05e1efc584193aaa799ec8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_f19f2fdcc0fc40f5be01adc16a7b1f18 = $(`<div id="html_f19f2fdcc0fc40f5be01adc16a7b1f18" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 330.57 m²</i></div>`)[0];
+                popup_4645e7c4bb05e1efc584193aaa799ec8.setContent(html_f19f2fdcc0fc40f5be01adc16a7b1f18);
+            
+        
+
+        marker_f11696d4ad07a7cad9a11fdfe0616956.bindPopup(popup_4645e7c4bb05e1efc584193aaa799ec8)
+        ;
+
+        
+    
+    
+                marker_f11696d4ad07a7cad9a11fdfe0616956.setIcon(icon_e5d9feb606bb39c0ef9c8b94569c0066);
+            
+    
+            var marker_5909bf5d8700e8b4e553d09b66b91346 = L.marker(
+                [-23.340517960904236, -51.15697145003137],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_c9d9e81ed526da6b9a8dc48bf30af0e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf66de52bd31f5dad07c3bc6a2d437a8 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_b14f9576835b4b76c80c42ab2c6cf0bd = $(`<div id="html_b14f9576835b4b76c80c42ab2c6cf0bd" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 12.18 m²</i></div>`)[0];
+                popup_bf66de52bd31f5dad07c3bc6a2d437a8.setContent(html_b14f9576835b4b76c80c42ab2c6cf0bd);
+            
+        
+
+        marker_5909bf5d8700e8b4e553d09b66b91346.bindPopup(popup_bf66de52bd31f5dad07c3bc6a2d437a8)
+        ;
+
+        
+    
+    
+                marker_5909bf5d8700e8b4e553d09b66b91346.setIcon(icon_c9d9e81ed526da6b9a8dc48bf30af0e1);
+            
+    
+            var marker_389553482c0d9fdcee4753816bffb9d8 = L.marker(
+                [-23.34033694854311, -51.156602637954784],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_8878aeddde8d4e9cf1d4f4b75e1bdbcf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b396673725879fe2ed3977314af0f751 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_e75a515101a5b388bbcf3046ec20bc91 = $(`<div id="html_e75a515101a5b388bbcf3046ec20bc91" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 4.52 m²</i></div>`)[0];
+                popup_b396673725879fe2ed3977314af0f751.setContent(html_e75a515101a5b388bbcf3046ec20bc91);
+            
+        
+
+        marker_389553482c0d9fdcee4753816bffb9d8.bindPopup(popup_b396673725879fe2ed3977314af0f751)
+        ;
+
+        
+    
+    
+                marker_389553482c0d9fdcee4753816bffb9d8.setIcon(icon_8878aeddde8d4e9cf1d4f4b75e1bdbcf);
+            
+    
+            var marker_ac84c694f59b0795b408f410f51a8f9b = L.marker(
+                [-23.340525248372188, -51.15618886977525],
+                {
+}
+            ).addTo(map_a9f7b2f1657bd408daf21b0d673c2d74);
+        
+    
+            var icon_1ef65764af1dd931da17a47321c022e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87f067365673648472a181b6547cb795 = L.popup({
+  "maxWidth": 400,
+  "minWidth": 300,
+});
+
+        
+            
+                var html_13eee83e893121f92bb43220f28e4c52 = $(`<div id="html_13eee83e893121f92bb43220f28e4c52" style="width: 100.0%; height: 100.0%;"><i>Cidade: Londrina</i><br><i>Tipo de Projeto: Estrutura Metálica</i><br><i>Metragem: 63.15 m²</i></div>`)[0];
+                popup_87f067365673648472a181b6547cb795.setContent(html_13eee83e893121f92bb43220f28e4c52);
+            
+        
+
+        marker_ac84c694f59b0795b408f410f51a8f9b.bindPopup(popup_87f067365673648472a181b6547cb795)
+        ;
+
+        
+    
+    
+                marker_ac84c694f59b0795b408f410f51a8f9b.setIcon(icon_1ef65764af1dd931da17a47321c022e7);
+            
+</script>
+</html>
