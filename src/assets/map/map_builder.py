@@ -27,6 +27,8 @@ for data_item in data["projects"]:
     elif language == "en":
       #Translate to English
       for i, category in enumerate(categories_list):
+        if category == "Fundações":
+          categories_list[i] = "Foundations"
         if category == "Concreto Armado":
           categories_list[i] = "Reinforced Concrete Structure"
         elif category == "Estrutura Metálica":
